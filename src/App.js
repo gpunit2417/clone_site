@@ -44,21 +44,29 @@ function App() {
 
 
       <div>
-        <div style={{ display: 'flex', border: '1px solid yellow', width: '1050px', margin: '-40px 0 0 150px', backgroundColor: 'white' }}>
-          <div style={{ border: '1px solid yellow', width: '350px', display: 'flex' }}>
+        <div style={{ display: 'flex', border: '1px solid yellow', width: '1150px', margin: '-40px 0 0 120px', backgroundColor: 'white', borderRadius: '.3rem', borderWidth: '2px'}}>
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
             <IoBedOutline style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>Where are you going?</h5>
           </div>
-          
-          <div style={{ border: '1px solid yellow', width: '350px', display: 'flex' }}>
+
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
             <SlCalender style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>Check-in date - Check-out date</h5>
           </div>
-          <div style={{ border: '1px solid yellow', width: '350px', display: 'flex' }}>
+
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
             <GoPeople style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>2 adults. 0 children. 1 room</h5>
           </div>
+
+          <button style={{width: '145px', backgroundColor: 'rgb(0,62,255)', borderRadius: '.3rem', borderWidth: '2px', border: '1px solid yellow', color: 'white'}}>Search</button>
         </div>
+      </div>
+
+      <div style={{margin: '10px auto auto 120px'}}>
+        <input type='checkbox'/>
+        <label>I am looking for flights</label>
       </div>
     </div>
   );
