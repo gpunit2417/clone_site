@@ -4,6 +4,8 @@ import { FaCarAlt } from "react-icons/fa";
 import { IoBedOutline } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 import { GoPeople } from "react-icons/go";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -67,6 +69,25 @@ function App() {
       <div style={{margin: '10px auto auto 120px'}}>
         <input type='checkbox'/>
         <label>I am looking for flights</label>
+      </div>
+      
+      <div className="offer-section" style={{margin: '50px auto 10px 120px'}}>
+        <div>
+          <h1>Offers</h1>
+          <p style={{fontSize: '20px', margin: '-15px auto auto auto'}}>Promotions, Deals and special offers for you</p>
+        </div>
+        <div style={{display: 'flex', width: '90%'}}>
+          <div style={{width: '50%', border: '1px solid grey', margin: '20px 5px 10px 0', borderRadius: '.4rem'}}>
+            <h3>Fly away to your dream holiday</h3>
+            <p>Get inspired, compare and book flights with more flexibility</p>
+            <button>Search for flights</button>
+          </div>
+          <div style={{width: '50%', border: '1px solid grey', margin: '20px 0 10px 5px', borderRadius: '.4rem'}}>
+            <h3>Go for a good time, not a long time</h3>
+            <p>Finish your year with a mini break. Save 15% or more when you book and stay by 7 January 2025.</p>
+            <button>Find late escape deals</button>
+          </div>
+        </div>
       </div>
     </div>
   );
