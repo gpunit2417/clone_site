@@ -71,7 +71,7 @@ function App() {
         <label>I am looking for flights</label>
       </div>
 
-      <div className="offer-section" style={{ margin: '50px auto 10px 120px' }}>
+      <div className="offer-section" style={{ margin: '50px auto 0 120px' }}>
         <div>
           <h1>Offers</h1>
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Promotions, Deals and special offers for you</p>
@@ -91,7 +91,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="explore">
+      <button style={{border: 'rgb(0,62,255)', backgroundColor: 'rgb(0,62,255)', color: 'rgb(0,62,255)', borderRadius: '1rem', margin: "-200px auto 40px 663px"}}>.</button>
+      <div className="explore" style={{border: '1px solid black'}}>
         <div>
           <h1></h1>
           <p></p>
