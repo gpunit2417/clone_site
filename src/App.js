@@ -86,7 +86,7 @@ function App() {
             <h3>Go for a good time, not a long time</h3>
             <p>Finish your year with a mini break. Save 15% or more when you book and stay by 7 January 2025.</p>
             <button>Find late escape deals</button>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
