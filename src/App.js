@@ -46,47 +46,61 @@ function App() {
 
 
       <div>
-        <div style={{ display: 'flex', border: '1px solid yellow', width: '1150px', margin: '-40px 0 0 120px', backgroundColor: 'white', borderRadius: '.3rem', borderWidth: '2px'}}>
-          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
+        <div style={{ display: 'flex', border: '1px solid yellow', width: '1150px', margin: '-40px 0 0 120px', backgroundColor: 'white', borderRadius: '.3rem', borderWidth: '2px' }}>
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px' }}>
             <IoBedOutline style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>Where are you going?</h5>
           </div>
 
-          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px' }}>
             <SlCalender style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>Check-in date - Check-out date</h5>
           </div>
 
-          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px'}}>
+          <div style={{ border: '1px solid yellow', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px' }}>
             <GoPeople style={{ margin: '23px 0 13px 10px' }} />
             <h5 style={{ marginLeft: '2px' }}>2 adults. 0 children. 1 room</h5>
           </div>
 
-          <button style={{width: '145px', backgroundColor: 'rgb(0,62,255)', borderRadius: '.3rem', borderWidth: '2px', border: '1px solid yellow', color: 'white'}}>Search</button>
+          <button style={{ width: '145px', backgroundColor: 'rgb(0,62,255)', borderRadius: '.3rem', borderWidth: '2px', border: '1px solid yellow', color: 'white' }}>Search</button>
         </div>
       </div>
 
-      <div style={{margin: '10px auto auto 120px'}}>
-        <input type='checkbox'/>
+      <div style={{ margin: '10px auto auto 120px' }}>
+        <input type='checkbox' />
         <label>I am looking for flights</label>
       </div>
-      
-      <div className="offer-section" style={{margin: '50px auto 10px 120px'}}>
+
+      <div className="offer-section" style={{ margin: '50px auto 10px 120px' }}>
         <div>
           <h1>Offers</h1>
-          <p style={{fontSize: '20px', margin: '-15px auto auto auto'}}>Promotions, Deals and special offers for you</p>
+          <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Promotions, Deals and special offers for you</p>
         </div>
-        <div style={{display: 'flex', width: '90%'}}>
-          <div style={{width: '50%', border: '1px solid grey', margin: '20px 5px 10px 0', borderRadius: '.4rem'}}>
+        <div style={{ display: 'flex', width: '90%' }}>
+          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 5px 10px 0', borderRadius: '.4rem' }}>
             <h3>Fly away to your dream holiday</h3>
             <p>Get inspired, compare and book flights with more flexibility</p>
             <button>Search for flights</button>
           </div>
-          <div style={{width: '50%', border: '1px solid grey', margin: '20px 0 10px 5px', borderRadius: '.4rem'}}>
+          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 0 10px 5px', borderRadius: '.4rem' }}>
             <h3>Go for a good time, not a long time</h3>
             <p>Finish your year with a mini break. Save 15% or more when you book and stay by 7 January 2025.</p>
             <button>Find late escape deals</button>
-          </div>  
+          </div>
+        </div>
+      </div>
+      <div className="explore">
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+        <div>
+          <div className="places"></div>
+          <div className="places"></div>
+          <div className="places"></div>
+          <div className="places"></div>
+          <div className="places"></div>
+          <div className="places"></div>
         </div>
       </div>
     </div>
