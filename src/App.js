@@ -132,6 +132,19 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="trending">
+        <div></div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }
