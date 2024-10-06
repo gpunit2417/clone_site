@@ -77,33 +77,47 @@ function App() {
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Promotions, Deals and special offers for you</p>
         </div>
         <div style={{ display: 'flex', width: '90%' }}>
-          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
             <h3>Fly away to your dream holiday</h3>
             <p>Get inspired, compare and book flights with more flexibility</p>
-            <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/184698944.png?k=6bb1bf3c13db4a7ba3c22a2d1f1051f793c525a78104703b4dec3eb12101f545&o=' alt='logo' style={{width: '100px', float: 'right', margin: '-80px 2px 0 auto'}} />
-            <button style={{ height: '35px', backgroundColor: 'rgb(0,62,255)', color: 'white', border: 'rgb(0,62,255)', borderRadius: '.3rem'}}>Search for flights</button>
+            <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/184698944.png?k=6bb1bf3c13db4a7ba3c22a2d1f1051f793c525a78104703b4dec3eb12101f545&o=' alt='logo' style={{ width: '100px', float: 'right', margin: '-80px 2px 0 auto' }} />
+            <button style={{ height: '35px', backgroundColor: 'rgb(0,62,255)', color: 'white', border: 'rgb(0,62,255)', borderRadius: '.3rem' }}>Search for flights</button>
           </div>
-          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 0 10px 5px', borderRadius: '.4rem', padding: '5px 7px'}}>
+          <div style={{ width: '50%', border: '1px solid grey', margin: '20px 0 10px 5px', borderRadius: '.4rem', padding: '5px 7px' }}>
             <h3>Go for a good time, not a long time</h3>
-            <p>Finish your year with a mini break. Save 15% or more <br/>when you book and stay by 7 January 2025.</p>
-            <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/372051085.jpeg?k=f5182852fa2c998e2b47cfd922da41ae16c42beb02fb70ecb57ee55ced3271f6&o=' alt='logo' style={{width: '130px', float: 'right', margin: '-108px 10px auto auto'}} />
-            <button style={{ height: '35px', backgroundColor: 'rgb(0,62,255)', color: 'white', border: 'rgb(0,62,255)', borderRadius: '.3rem'}}>Find late escape deals</button>
+            <p>Finish your year with a mini break. Save 15% or more <br />when you book and stay by 7 January 2025.</p>
+            <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/372051085.jpeg?k=f5182852fa2c998e2b47cfd922da41ae16c42beb02fb70ecb57ee55ced3271f6&o=' alt='logo' style={{ width: '130px', float: 'right', margin: '-108px 10px auto auto' }} />
+            <button style={{ height: '35px', backgroundColor: 'rgb(0,62,255)', color: 'white', border: 'rgb(0,62,255)', borderRadius: '.3rem' }}>Find late escape deals</button>
           </div>
         </div>
       </div>
-      <button style={{border: 'rgb(0,62,255)', backgroundColor: 'rgb(0,62,255)', color: 'rgb(0,62,255)', borderRadius: '1rem', margin: "-200px auto 40px 663px"}}>.</button>
-      <div className="explore" style={{border: '1px solid black'}}>
+
+      <button style={{ border: 'rgb(0,62,255)', backgroundColor: 'rgb(0,62,255)', color: 'rgb(0,62,255)', borderRadius: '1rem', margin: "-200px auto 40px 663px" }}>.</button>
+
+      <div className="explore" style={{ margin: '-10px auto 0 120px' }}>
         <div>
-          <h1></h1>
-          <p></p>
+          <h1>Explore India</h1>
+          <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>These popular destinations have a lot to offer</p>
         </div>
-        <div>
-          <div className="places"></div>
-          <div className="places"></div>
-          <div className="places"></div>
-          <div className="places"></div>
-          <div className="places"></div>
-          <div className="places"></div>
+        <div style={{ display: 'flex', width: '90%' }}>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://r-xx.bstatic.com/xdata/images/region/170x136/49646.jpg?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/684919.jpg?k=0a73fce29109503c055e288c413d9a1c5bd66fdb26f01c1438e8017b0b64b42f&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://r-xx.bstatic.com/xdata/images/city/170x136/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://r-xx.bstatic.com/xdata/images/city/170x136/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px'}}>
+            <img src="https://r-xx.bstatic.com/xdata/images/city/170x136/684720.jpg?k=fdb1d9397eeb9b17d4a1ef6fdf806e6b4366d5ebda38d7f0c212b9c1bec8dcea&o=" alt="location" style={{borderRadius: '.5rem'}}/>
+          </div>
         </div>
       </div>
     </div>
