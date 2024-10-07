@@ -6,8 +6,6 @@ import { SlCalender } from "react-icons/sl";
 import { GoPeople } from "react-icons/go";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 function App() {
   return (
     <div className="App" style={{ margin: '0', padding: '0', top: '0' }}>
@@ -43,7 +41,6 @@ function App() {
           <h2 style={{ fontWeight: '400', marginTop: '-50px' }}>Search low prices on hotels, homes and much more...</h2>
         </div>
       </div>
-
 
       <div>
         <div style={{ display: 'flex', border: '1px solid yellow', width: '1150px', margin: '-40px 0 0 120px', backgroundColor: 'white', borderRadius: '.3rem', borderWidth: '2px' }}>
