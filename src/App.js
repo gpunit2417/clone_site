@@ -19,7 +19,6 @@ function App() {
           <button style={{ height: '32px', margin: '20px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'blue', width: '68px' }}>Sign In</button>
         </div>
 
-
         <div style={{ display: 'flex' }}>
           <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
             <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
@@ -34,7 +33,6 @@ function App() {
           <h3 style={{ margin: '13px', fontWeight: '100' }}>Attractions</h3>
           <h3 style={{ margin: '13px', fontWeight: '100' }}>Airport taxis</h3>
         </div>
-
 
         <div style={{ margin: '80px 0 0 120px' }}>
           <p style={{ fontSize: '50px', fontWeight: '700' }}>Find Your Next stay</p>
