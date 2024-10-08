@@ -13,7 +13,7 @@ function App() {
         <div style={{ display: 'flex', margin: '0 120px' }}>
           <h2 style={{ marginRight: '450px' }}>Booking.com</h2>
           <h2>INR</h2>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{height: '25px', width: '25px', margin: '26px 0 0 15px', borderRadius: '1rem', objectFit: 'cover'}}/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '26px 0 0 15px', borderRadius: '1rem', objectFit: 'cover' }} />
           <GoQuestion style={{ margin: '24px', fontSize: '1.5rem' }} />
           <h3 style={{ marginTop: '24px' }}>List your Property</h3>
           <button style={{ height: '32px', margin: '20px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'blue', width: '75px' }}>Register</button>
@@ -135,28 +135,28 @@ function App() {
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Most popular choices for travellers from India</p>
         </div>
         <div style={{ display: 'flex', width: '90%' }}>
-          <div style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
-          <h2 style={{top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black'}}>New Delhi</h2>
-            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover',height: '50vh' }}/>
+          <div style={{ width: '50%', margin: '0 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+            <h2 style={{ top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black' }}>New Delhi <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '22px', width: '35px', margin: '26px 0 0 4px', objectFit: 'cover' }} /></h2>
+            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '50vh' }} />
           </div>
-          <div style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
-          <h2 style={{top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black'}}>Bangalore</h2>
-            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" alt="location" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover',height: '50vh'}}/>
+          <div style={{ width: '50%', margin: '0 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+            <h2 style={{ top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black' }}>Bangalore <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '22px', width: '35px', margin: '26px 0 0 4px', objectFit: 'cover' }} /></h2>
+            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" alt="location" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '50vh' }} />
           </div>
         </div>
 
         <div style={{ display: 'flex', width: '90%', margin: '-15px 0 0 0' }}>
-          <div style={{ width: '33%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
-          <h2 style={{top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black'}}>Mumbai</h2>
-            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover',height: '40vh' }}/>
+          <div style={{ width: '33%', margin: '0 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+            <h2 style={{ top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black' }}>Mumbai <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '22px', width: '35px', margin: '26px 0 0 4px', objectFit: 'cover' }} /></h2>
+            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '40vh' }} />
           </div>
-          <div style={{ width: '33%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
-          <h2 style={{top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black'}}>Chennai</h2>
-            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684730.jpg?k=e37b93d88c1fe12e827f10c9d6909a1def7349be2c68df5de885deaa4bc01ee3&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover',height: '40vh' }}/>
+          <div style={{ width: '33%', margin: '0 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+            <h2 style={{ top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black' }}>Chennai <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '22px', width: '35px', margin: '26px 0 0 4px', objectFit: 'cover' }} /></h2>
+            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684730.jpg?k=e37b93d88c1fe12e827f10c9d6909a1def7349be2c68df5de885deaa4bc01ee3&o=" alt="trending" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '40vh' }} />
           </div>
-          <div style={{ width: '33%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
-          <h2 style={{top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black'}}>Hyderabad</h2>
-            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684653.jpg?k=306ccafcc8a4a7e23b9e8a05b183453fe885b312a4daa5ce76ec39a1b79cbc6f&o=" alt="location" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '40vh' }}/>
+          <div style={{ width: '33%', margin: '0 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+            <h2 style={{ top: '54px', position: 'relative', margin: '-31px 0 0 25px', color: 'white', textShadow: ' 1px 1px black' }}>Hyderabad <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '22px', width: '35px', margin: '26px 0 0 4px', objectFit: 'cover' }} /></h2>
+            <img src="https://cf2.bstatic.com/xdata/images/city/600x600/684653.jpg?k=306ccafcc8a4a7e23b9e8a05b183453fe885b312a4daa5ce76ec39a1b79cbc6f&o=" alt="location" style={{ borderRadius: '.5rem', width: '100%', objectFit: 'cover', height: '40vh' }} />
           </div>
         </div>
       </div>
@@ -164,26 +164,26 @@ function App() {
       <div className="browse" style={{ margin: '-10px auto 0 120px' }}>
         <h1>Browse by Property type in Munnar</h1>
         <div style={{ display: 'flex', width: '90%' }}>
-          <div style={{margin: '5px 5px 0 0', width: '100%', objectFit: 'cover'}}>
-            <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=" alt="browse" style={{borderRadius: '.4rem'}}/>
+          <div style={{ margin: '5px 5px 0 0', width: '100%', objectFit: 'cover' }}>
+            <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=" alt="browse" style={{ borderRadius: '.4rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Hotels</h4>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>11 Oct-12 Oct, 2 adults</p>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>54 available</p>
           </div>
-          <div style={{margin: '5px 5px 0 0', width: '100%', objectFit: 'cover'}}>
-            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=" alt="browse" style={{borderRadius: '.4rem'}}/>
+          <div style={{ margin: '5px 5px 0 0', width: '100%', objectFit: 'cover' }}>
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=" alt="browse" style={{ borderRadius: '.4rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Apartments</h4>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>11 Oct-12 Oct, 2 adults</p>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>30 available</p>
           </div>
-          <div style={{margin: '5px 5px 0 0', width: '100%', objectFit: 'cover'}}>
-            <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=" alt="browse" style={{borderRadius: '.4rem'}}/>
+          <div style={{ margin: '5px 5px 0 0', width: '100%', objectFit: 'cover' }}>
+            <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=" alt="browse" style={{ borderRadius: '.4rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Resorts</h4>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>11 Oct-12 Oct, 2 adults</p>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>49 available</p>
           </div>
-          <div style={{margin: '5px 5px 0 0', width: '100%', objectFit: 'cover'}}>
-            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=" alt="browse" style={{borderRadius: '.4rem'}}/>
+          <div style={{ margin: '5px 5px 0 0', width: '100%', objectFit: 'cover' }}>
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=" alt="browse" style={{ borderRadius: '.4rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Villas</h4>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>11 Oct-12 Oct, 2 adults</p>
             <p style={{ margin: '0px', fontSize: '.9rem' }}>14 available</p>
