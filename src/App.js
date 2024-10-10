@@ -128,7 +128,7 @@ function App() {
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Bangalore</h4>
             <p style={{ margin: '0px' }}>2,044 properties</p>
           </div>
-          
+
           <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
             <img src="https://r-xx.bstatic.com/xdata/images/city/170x136/684720.jpg?k=fdb1d9397eeb9b17d4a1ef6fdf806e6b4366d5ebda38d7f0c212b9c1bec8dcea&o=" alt="location" style={{ borderRadius: '.5rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Munnar</h4>
@@ -205,7 +205,7 @@ function App() {
         </div>
         <div></div>
         <div style={{ display: 'flex', width: '90%' }}>
-        <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
+          <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
             <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052521.jpg?k=a6bd9352c790d92b6969bcfbab4ec45793e60579c6212519ad6d4f6817e41219&o=" alt="location" style={{ borderRadius: '.5rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Nedumbassery</h4>
             <p style={{ margin: '0px' }}>74 km from Munnar</p>
@@ -234,7 +234,7 @@ function App() {
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Sultan Bathery</h4>
             <p style={{ margin: '0px' }}>195 km from Munnar</p>
           </div>
-          
+
           <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
             <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018181.jpg?k=8701d90839626e2b1dedfbe09dd993366c383a71b9786d3677ed8ebc61bd64a9&o=" alt="location" style={{ borderRadius: '.5rem' }} />
             <h4 style={{ margin: '5px 0px 0px 0px' }}>Salem</h4>
