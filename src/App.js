@@ -227,7 +227,7 @@ function App() {
     </div>
   </div>
   <div style={{ display: 'flex', width: '50%' }}>
-    <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px', border: '1px solid black' }}>
+    <div className="places" style={{ width: '50%', margin: '20px 5px 10px 0', borderRadius: '.4rem', padding: '0 7px' }}>
       <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052521.jpg?k=a6bd9352c790d92b6969bcfbab4ec45793e60579c6212519ad6d4f6817e41219&o=" alt="location" style={{ width: '170px', height: '136px', borderRadius: '.5rem' }} />
       <h4 style={{ margin: '5px 0px 0px 0px' }}>Nedumbassery</h4>
       <p style={{ margin: '0px' }}>74 km from Munnar</p>
