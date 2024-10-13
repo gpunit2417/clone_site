@@ -349,9 +349,9 @@ function App() {
         <div style={{ display: 'flex' }}>
           <div>
             <video src="https://eu-assets.contentstack.com/v3/assets/bltbebdf496526c3cfd/blt0f67f40bb1f306c3/656d8bde4bf0bf040a8ea383/B6_NYE-2.mp4" alt="videoframe" style={{ width: '530px', borderRadius: '.5rem' }} />
-            <div style={{margin: '-100px 5px 0 10px'}}>
-              <b style={{color: '#fff', fontSize: '20px'}}>New Year’s Eve in New York City</b>
-              <p style={{color: '#fff', fontSize: '14px'}}>Ring in the new year with iconic moments and unforgettable memories in New York City</p>
+            <div style={{ margin: '-100px 5px 0 10px' }}>
+              <b style={{ color: '#fff', fontSize: '20px' }}>New Year’s Eve in New York City</b>
+              <p style={{ color: '#fff', fontSize: '14px' }}>Ring in the new year with iconic moments and unforgettable memories in New York City</p>
             </div>
           </div>
           <div style={{ display: 'flex', margin: '0 10px' }}>
@@ -372,18 +372,18 @@ function App() {
           </div>
         </div>
       </div>
-      <h1 style={{margin: '20px auto 0 120px'}}>Travel more, spend less</h1>
-      <div  className='travel' style={{ border: "1px solid grey", textAlign: "left", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem'}}>
-        <div style={{padding: '7px 8px 15px 10px'}}>
+      <h1 style={{ margin: '20px auto 0 120px' }}>Travel more, spend less</h1>
+      <div className='travel' style={{ border: "1px solid grey", textAlign: "left", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem' }}>
+        <div style={{ padding: '7px 8px 15px 10px' }}>
           <div>
             <p>
               <b>Sign in, save money</b>
               <p>Save 10% or more at participating properties - just look for the blue Genius label</p>
             </p>
-            <button style={{backgroundColor: 'rgb(0,60,145)', color: '#fff', borderRadius: '.2rem', borderColor: 'rgb(0,60,145)', height: '35px', width: '70px'}}>
+            <button style={{ backgroundColor: 'rgb(0,60,145)', color: '#fff', borderRadius: '.2rem', borderColor: 'rgb(0,60,145)', height: '35px', width: '70px' }}>
               Sign in
             </button>
-            <button style={{backgroundColor: '#fff', color: 'rgb(0,60,145)', margin: '0 10px', border: 'none'}}>
+            <button style={{ backgroundColor: '#fff', color: 'rgb(0,60,145)', margin: '0 10px', border: 'none' }}>
               <b>Register</b>
             </button>
             <img
@@ -398,21 +398,35 @@ function App() {
           </div>
         </div>
       </div>
-      <div  className='travel' style={{ border: "1px solid grey", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem', height: '45vh'}}>
-        <div>
-          <div>
-            <img
-              src='https://cf.bstatic.com/psb/capla/static/media/bh_aw_cpg_main_image.b4347622.png'
-              alt="image"
-              style={{
-                width: "35%",
-                float: "right",
-                margin: "15px 35px 5px 0",
-              }}
-            />
+      <div className='travel' style={{ border: "1px solid grey", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem', height: '45vh', display: 'flex', position: 'relative', backgroundColor: 'white', alignItems: 'center' }}>
+
+        {/* Orange circle positioned half outside */}
+        <div style={{ position: 'absolute', top: '68%', transform: 'translateY(-50%)' }}>
+          <div style={{ height: '80px', width: '40px', backgroundColor: 'orange', borderRadius: '0 5rem 5rem 0' }}>
           </div>
         </div>
+
+        {/* Text Section */}
+        <div style={{ flex: 1, color: 'white', textAlign: 'center', backgroundColor: '#0066cc', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderRadius: '6rem', margin: '0 10px 0 200px', width: '100%'}}>
+          <h2>Find <span style={{ fontWeight: 'bold' }}>apartments</span><br /> for your next trip</h2>
+          <button style={{ backgroundColor: 'white', color: '#0066cc', border: 'none', padding: '10px 20px', borderRadius: '.5rem', cursor: 'pointer', width: '140px', marginLeft: '50%'}}>
+            Discover homes
+          </button>
+        </div>
+
+        {/* Image Section */}
+        <div style={{ width: '40%', margin: '0 -50px 0 0' }}>
+          <img
+            src='https://cf.bstatic.com/psb/capla/static/media/bh_aw_cpg_main_image.b4347622.png'
+            alt="image"
+            style={{
+              width: "80%",
+              borderRadius: '0',
+            }}
+          />
+        </div>
       </div>
+
     </div>
   );
 }
