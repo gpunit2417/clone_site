@@ -398,6 +398,21 @@ function App() {
           </div>
         </div>
       </div>
+      <div  className='travel' style={{ border: "1px solid grey", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem', height: '45vh'}}>
+        <div>
+          <div>
+            <img
+              src='https://cf.bstatic.com/psb/capla/static/media/bh_aw_cpg_main_image.b4347622.png'
+              alt="image"
+              style={{
+                width: "35%",
+                float: "right",
+                margin: "15px 35px 5px 0",
+              }}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
