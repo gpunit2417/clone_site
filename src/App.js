@@ -283,7 +283,7 @@ function App() {
             </div>
             <div style={{ margin: '30px 0 -2px 75px' }}>
               <p>2 nights&nbsp;
-                <strike>₹ 2,752</strike>&nbsp;
+                <strike style={{color: 'red'}}>₹ 2,752</strike>&nbsp;
                 <b>₹ 2,477</b>
               </p>
             </div>
@@ -300,7 +300,7 @@ function App() {
             </div>
             <div style={{ margin: '30px 0 -2px 75px' }}>
               <p>2 nights&nbsp;
-                <strike>₹ 8,998</strike>&nbsp;
+                <strike style={{color: 'red'}}>₹ 8,998</strike>&nbsp;
                 <b>₹ 6,749</b>
               </p>
             </div>
@@ -317,7 +317,7 @@ function App() {
             </div>
             <div style={{ margin: '30px 0 -2px 75px' }}>
               <p>2 nights&nbsp;
-                <strike>₹ 6,804</strike>&nbsp;
+                <strike style={{color: 'red'}}>₹ 6,804</strike>&nbsp;
                 <b>₹ 3,402</b>
               </p>
             </div>
@@ -334,7 +334,7 @@ function App() {
             </div>
             <div style={{ margin: '30px 0 -2px 75px' }}>
               <p>2 nights&nbsp;
-                <strike>₹ 3,076</strike>&nbsp;
+                <strike style={{color: 'red'}}>₹ 3,076</strike>&nbsp;
                 <b>₹ 2,769</b>
               </p>
             </div>
