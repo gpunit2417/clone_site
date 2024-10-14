@@ -441,52 +441,52 @@ function App() {
         </div>
         <div style={{display: 'flex'}}>
           <div>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
+            <h4>Lake District</h4>
+            <p>2,461 properties</p>
+            <h4>Phuket Province</h4>
+            <p>5,547 properties</p>
+            <h4>Zanzibar</h4>
+            <p>882 properties</p>
+            <h4>Texel</h4>
+            <p>411 properties</p>
           </div>
           <div>
-          <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
+          <h4>Hawai</h4>
+            <p>5,452 properties</p>
+            <h4>Bora Bora</h4>
+            <p>69 properties</p>
+            <h4>Bihar</h4>
+            <p>781 properties</p>
+            <h4>England</h4>
+            <p>80,602 properties</p>
           </div>
           <div>
-          <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
+          <h4>Mykonos</h4>
+            <p>1,455 properties</p>
+            <h4>Bali</h4>
+            <p>13,206 properties</p>
+            <h4>Guernsey</h4>
+            <p>64 properties</p>
+            <h4>Cornwall</h4>
+            <p>5,459 properties</p>
           </div>
           <div>
-          <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
+          <h4>Uttar Pradesh</h4>
+            <p>4,463 properties</p>
+            <h4>Santorini</h4>
+            <p>1,794 properties</p>
+            <h4>Jersey</h4>
+            <p>90 properties</p>
+            <h4>Tenerife</h4>
+            <p>9,735 properties</p>
           </div>
           <div>
-          <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
-            <h4></h4>
-            <p></p>
+          <h4>Ras Al Khaimah</h4>
+            <p>117 properties</p>
+            <h4>Ibiza</h4>
+            <p>1,642 properties</p>
+            <h4>Isle of Wight</h4>
+            <p>961 properties</p>
           </div>
         </div>
       </div>
