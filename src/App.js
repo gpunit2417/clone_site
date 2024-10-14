@@ -428,18 +428,15 @@ function App() {
       </div>
       <div className='destinations' style={{ margin: '-10px auto 0 120px', width: '80%' }}>
         <h1>Destinations we love</h1>
-        <div>
-          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
-            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
-            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+        <div style={{display: 'flex'}}>
+          <div style={{ border: '1px solid rgb(65,135,255)', backgroundColor: 'rgb(235,245,255)', borderRadius: '1.2rem', height: '40px', width: '100px', margin: '10px 10px 0 0', justifyContent: 'center', borderWidth: '1.8px', color: 'rgb(65,135,255)', display: 'flex' }}>
+            <p style={{ margin: '5px 0 0 0' }}>Regions</p>
           </div>
-          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
-            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
-            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+          <div style={{ margin: '10px 10px 0 20px', textAlign: 'center'}}>
+            <p style={{ margin: '5px 0 0 0' }}>Cities</p>
           </div>
-          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
-            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
-            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+          <div style={{ margin: '10px 10px 0 20px', textAlign: 'center'}}>
+            <p style={{ margin: '5px 0 0 0' }}>Place of interest</p>
           </div>
         </div>
         <div>
