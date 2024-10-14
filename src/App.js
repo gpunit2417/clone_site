@@ -439,12 +439,55 @@ function App() {
             <p style={{ margin: '5px 0 0 0' }}>Place of interest</p>
           </div>
         </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div style={{display: 'flex'}}>
+          <div>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+          </div>
+          <div>
+          <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+          </div>
+          <div>
+          <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+          </div>
+          <div>
+          <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+          </div>
+          <div>
+          <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+            <h4></h4>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
