@@ -426,11 +426,21 @@ function App() {
           />
         </div>
       </div>
-      <div>
+      <div className='destinations' style={{ margin: '-10px auto 0 120px', width: '80%' }}>
+        <h1>Destinations we love</h1>
         <div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
+            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
+            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+          </div>
+          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
+            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
+            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+          </div>
+          <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
+            <IoBedOutline style={{ margin: '18px 0 13px 10px' }} />
+            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+          </div>
         </div>
         <div>
           <div></div>
