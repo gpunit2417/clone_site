@@ -441,23 +441,23 @@ function App() {
         </div>
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <div>
-            <h4>Lake District</h4>
+            <h4 style={{marginBottom: '-10px'}}>Lake District</h4>
             <p>2,461 properties</p>
-            <h4>Phuket Province</h4>
+            <h4 style={{marginBottom: '-10px'}}>Phuket Province</h4>
             <p>5,547 properties</p>
-            <h4>Zanzibar</h4>
+            <h4 style={{marginBottom: '-10px'}}>Zanzibar</h4>
             <p>882 properties</p>
-            <h4>Texel</h4>
+            <h4 style={{marginBottom: '-10px'}}>Texel</h4>
             <p>411 properties</p>
           </div>
           <div>
-          <h4>Hawai</h4>
+          <h4 style={{marginBottom: '-10px'}}>Hawai</h4>
             <p>5,452 properties</p>
-            <h4>Bora Bora</h4>
+            <h4 style={{marginBottom: '-10px'}}>Bora Bora</h4>
             <p>69 properties</p>
-            <h4>Bihar</h4>
+            <h4 style={{marginBottom: '-10px'}}>Bihar</h4>
             <p>781 properties</p>
-            <h4>England</h4>
+            <h4 style={{marginBottom: '-10px'}}>England</h4>
             <p>80,602 properties</p>
           </div>
           <div>
