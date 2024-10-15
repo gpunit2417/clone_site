@@ -515,58 +515,75 @@ function App() {
           Reviews.
           Discover monthly stays</p>
       </div>
-      <div style={{backgroundColor: 'lightgrey'}}>
-      <div className='footer' style={{ margin: '-1px auto 0 120px', width: '80%'}}>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Lake District</h4>
-            <p>2,461 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Phuket Province</h4>
-            <p>5,547 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Zanzibar</h4>
-            <p>882 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Texel</h4>
-            <p>411 properties</p>
+      <div style={{ backgroundColor: 'lightgrey' }}>
+        <div className='footer' style={{ margin: '-1px auto 0 120px', width: '80%' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ marginBottom: '-10px' }}>Support</h4>
+              <p>Coronavirus (COVID-19) FAQs</p>
+              <p>Manage your trips</p>
+              <p>Contact customer service</p>
+              <p>Safety resource center</p>
+            </div>
+            <div>
+              <h4 style={{ marginBottom: '-10px' }}>Discover</h4>
+              <p>Genius loyalty programme
+              </p>
+              <p>Seasonal and holiday deals
+
+              </p>
+              <p>Travel articles
+
+              </p>
+              <p>Booking.com for Business
+              </p>
+              <p>Traveller Review Awards</p>
+              <p>Car hire</p>
+              <p>Flight finder
+              </p>
+              <p>Restaurant reservations
+              </p>
+              <p>Booking.com for Travel Agents</p>
+            </div>
+            <div>
+              <h4 style={{ marginBottom: '-10px' }}>Mykonos</h4>
+              <p>Privacy & cookies
+              </p>
+              <p>Terms and conditions
+              </p>
+              <p>Grievance officer
+              </p>
+              <p>Modern Slavery Statement
+              </p>
+              <p>Human Rights Statement</p>
+            </div>
+            <div>
+              <h4 style={{ marginBottom: '-10px' }}>Uttar Pradesh</h4>
+              <p>Extranet login
+              </p>
+              <p>Partner help
+              </p>
+              <p>List your property
+              </p>
+              <p>Become an affiliate</p>
+            </div>
+            <div>
+              <h4 style={{ marginBottom: '-10px' }}>Ras Al Khaimah</h4>
+              <p>About Booking.com
+              </p>
+              <p>How we work
+              </p>
+              <p>Sustainability
+              </p>
+              <p>Press centre
+              </p>
+              <p>Careers
+              </p>
+              <p>Investor relations
+              </p>
+              <p>Corporate contact</p>
+            </div>
           </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Hawai</h4>
-            <p>5,452 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bora Bora</h4>
-            <p>69 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bihar</h4>
-            <p>781 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>England</h4>
-            <p>80,602 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Mykonos</h4>
-            <p>1,455 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bali</h4>
-            <p>13,206 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Guernsey</h4>
-            <p>64 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Cornwall</h4>
-            <p>5,459 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Uttar Pradesh</h4>
-            <p>4,463 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Santorini</h4>
-            <p>1,794 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Jersey</h4>
-            <p>90 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Tenerife</h4>
-            <p>9,735 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Ras Al Khaimah</h4>
-            <p>117 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Ibiza</h4>
-            <p>1,642 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Isle of Wight</h4>
-            <p>961 properties</p>
-          </div>
-        </div>
         </div>
       </div>
     </div>
