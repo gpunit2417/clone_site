@@ -515,7 +515,8 @@ function App() {
           Reviews.
           Discover monthly stays</p>
       </div>
-      <div className='footer' style={{ margin: '-10px auto 0 120px', width: '80%' }}>
+      <div style={{backgroundColor: 'lightgrey'}}>
+      <div className='footer' style={{ margin: '-1px auto 0 120px', width: '80%'}}>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <div>
             <h4 style={{ marginBottom: '-10px' }}>Lake District</h4>
@@ -565,6 +566,7 @@ function App() {
             <h4 style={{ marginBottom: '-10px' }}>Isle of Wight</h4>
             <p>961 properties</p>
           </div>
+        </div>
         </div>
       </div>
     </div>
