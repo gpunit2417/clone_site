@@ -491,7 +491,7 @@ function App() {
         </div>
       </div>
       <div style={{ margin: '40px auto 0 120px', width: '80%' }}>
-        <p style={{fontSize: '13.3px'}}>Countries.
+        <p style={{ fontSize: '13.3px' }}>Countries.
           Regions.
           Cities.
           Districts.
@@ -506,7 +506,7 @@ function App() {
           B&Bs.
           Guest Houses.
           Unique places to stay.
-          All destinations.<br/><br/>
+          All destinations.<br /><br />
           All flight destinations.
           All car hire locations.
           All holiday destinations.
