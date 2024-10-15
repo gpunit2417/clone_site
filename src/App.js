@@ -439,7 +439,7 @@ function App() {
             <p style={{ margin: '5px 0 0 0' }}>Place of interest</p>
           </div>
         </div>
-        <div style={{display: 'flex'}}>
+        <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <div>
             <h4>Lake District</h4>
             <p>2,461 properties</p>
