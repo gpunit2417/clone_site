@@ -490,6 +490,31 @@ function App() {
           </div>
         </div>
       </div>
+      <div style={{ margin: '-10px auto 0 120px', width: '80%' }}>
+        <p>Countries
+Regions
+Cities
+Districts
+Airports
+Hotels
+Places of interest
+Holiday Homes
+Apartments
+Resorts
+Villas
+Hostels
+B&Bs
+Guest Houses
+Unique places to stay
+All destinations
+All flight destinations
+All car hire locations
+All holiday destinations
+Guides
+Discover
+Reviews
+Discover monthly stays</p>
+      </div>
     </div>
   );
 }
