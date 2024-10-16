@@ -585,9 +585,19 @@ function App() {
             </div>
           </div>
         </div>
+        <div style={{ margin: '-1px auto 0 110px', width: '80%', display: 'flex' }}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '10px 40px 0 15px', borderRadius: '1rem', objectFit: 'cover'}} />
+          <h4 style={{marginTop: '10px'}}>INR</h4>
+        </div>
         <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="" />
-          <h4>INR</h4>
+          <div></div>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
