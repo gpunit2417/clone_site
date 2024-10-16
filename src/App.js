@@ -585,6 +585,10 @@ function App() {
             </div>
           </div>
         </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="" />
+          <h4>INR</h4>
+        </div>
       </div>
     </div>
   );
