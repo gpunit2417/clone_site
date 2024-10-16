@@ -598,41 +598,42 @@ function App() {
           </div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div>
-              <h3 style={{color: 'rgb(0,60,145)'}}>Booking.com</h3>
+              <h3 style={{ color: 'rgb(0,60,145)' }}>Booking.com</h3>
             </div>
             <div>
-              <h3 style={{color: 'rgb(0,150,255)'}}>priceline<sup style={{fontSize: '7px'}}>R</sup></h3>
+              <h3 style={{ color: 'rgb(0,150,255)' }}>priceline<sup style={{ fontSize: '7px' }}>R</sup></h3>
             </div>
-            <div style={{display: 'flex'}}>
-              <div style={{margin: '0 1px'}}>
-                <h3 style={{color: 'white', background: 'orange'}}>K</h3>
+            <div style={{ display: 'flex' }}>
+              <div style={{ margin: '0 1px' }}>
+                <h3 style={{ color: 'white', background: 'orange' }}>K</h3>
               </div>
-              <div style={{margin: '0 1px'}}>
-                <h3 style={{color: 'white', background: 'orange'}}>A</h3>
+              <div style={{ margin: '0 1px' }}>
+                <h3 style={{ color: 'white', background: 'orange' }}>A</h3>
               </div>
-              <div style={{margin: '0 1px'}}>
-                <h3 style={{color: 'white', background: 'orange'}}>Y</h3>
+              <div style={{ margin: '0 1px' }}>
+                <h3 style={{ color: 'white', background: 'orange' }}>Y</h3>
               </div>
-              <div style={{margin: '0 1px'}}>
-                <h3 style={{color: 'white', background: 'orange'}}>A</h3>
+              <div style={{ margin: '0 1px' }}>
+                <h3 style={{ color: 'white', background: 'orange' }}>A</h3>
               </div>
-              <div style={{margin: '0 1px'}}>
-                <h3 style={{color: 'white', background: 'orange'}}>K</h3>
+              <div style={{ margin: '0 1px' }}>
+                <h3 style={{ color: 'white', background: 'orange' }}>K</h3>
               </div>
             </div>
             <div>
               <h5>agoda</h5>
-              <div style={{margin: '-30px 0 0 0'}}>
-              <FaCircle style={{fontSize: '6px', color: 'red'}}/>
-              <FaCircle style={{fontSize: '6px', color: 'yellow'}}/>
-              <FaCircle style={{fontSize: '6px', color: 'green'}}/>
-              <FaCircle style={{fontSize: '6px', color: 'purple'}}/>
-              <FaCircle style={{fontSize: '6px', color: 'blue'}}/>
+              <div style={{ margin: '-30px 0 0 0' }}>
+                <FaCircle style={{ fontSize: '6px', color: 'red' }} />
+                <FaCircle style={{ fontSize: '6px', color: 'yellow' }} />
+                <FaCircle style={{ fontSize: '6px', color: 'green' }} />
+                <FaCircle style={{ fontSize: '6px', color: 'purple' }} />
+                <FaCircle style={{ fontSize: '6px', color: 'blue' }} />
               </div>
             </div>
-            <div>
-            <FaCircle style={{fontSize: '4px'}}/>
-            <FaDotCircle />
+            <div style={{ display: 'flex' }}>
+              <FaCircle style={{ fontSize: '4px', color: 'red' }} />
+              <FaDotCircle style={{ color: 'red' }} />
+              <h3>OpenTable</h3>
             </div>
           </div>
         </div>
