@@ -597,13 +597,13 @@ function App() {
               Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
           </div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div>
+            <div style={{margin: '0 5px 0 5px'}}>
               <h3 style={{ color: 'rgb(0,60,145)' }}>Booking.com</h3>
             </div>
-            <div>
+            <div style={{margin: '0 5px 0 5px'}}>
               <h3 style={{ color: 'rgb(0,150,255)' }}>priceline<sup style={{ fontSize: '7px' }}>R</sup></h3>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex', margin: '0 5px 0 5px' }}>
               <div style={{ margin: '0 1px' }}>
                 <h3 style={{ color: 'white', background: 'orange' }}>K</h3>
               </div>
@@ -620,7 +620,7 @@ function App() {
                 <h3 style={{ color: 'white', background: 'orange' }}>K</h3>
               </div>
             </div>
-            <div>
+            <div style={{margin: '0 5px 0 5px'}}>
               <h5>agoda</h5>
               <div style={{ margin: '-30px 0 0 0' }}>
                 <FaCircle style={{ fontSize: '6px', color: 'red' }} />
@@ -630,9 +630,11 @@ function App() {
                 <FaCircle style={{ fontSize: '6px', color: 'blue' }} />
               </div>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex', margin: '0 5px 0 5px'}}>
+              <div style={{margin: '24px 0'}}>
               <FaCircle style={{ fontSize: '4px', color: 'red' }} />
               <FaDotCircle style={{ color: 'red' }} />
+              </div>
               <h3>OpenTable</h3>
             </div>
           </div>
