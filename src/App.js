@@ -590,11 +590,26 @@ function App() {
           <h4 style={{marginTop: '10px'}}>INR</h4>
         </div>
         <div>
-          <div></div>
+          <div style={{textAlign: 'center'}}>
+            <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.<br/>
+            Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
+          </div>
           <div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <h4>Booking.com</h4>
+            </div>
+            <div>
+              <h3>priceline<sup>R</sup></h3>
+            </div>
+            <div>
+              <div>
+                <h3>K</h3>
+              </div>
+              <div><h3>A</h3></div>
+              <div><h3>Y</h3></div>
+              <div><h3>A</h3></div>
+              <div><h3>K</h3></div>
+            </div>
             <div></div>
             <div></div>
           </div>
