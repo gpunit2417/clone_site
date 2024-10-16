@@ -8,6 +8,8 @@ import { CiHeart } from "react-icons/ci";
 import { PiCityLight } from "react-icons/pi";
 import { MdOutlineBeachAccess } from "react-icons/md";
 import { LuBike } from "react-icons/lu";
+import { FaCircle } from "react-icons/fa";
+import { FaDotCircle } from "react-icons/fa";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -586,32 +588,52 @@ function App() {
           </div>
         </div>
         <div style={{ margin: '-1px auto 0 110px', width: '80%', display: 'flex' }}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '10px 40px 0 15px', borderRadius: '1rem', objectFit: 'cover'}} />
-          <h4 style={{marginTop: '10px'}}>INR</h4>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '10px 40px 0 15px', borderRadius: '1rem', objectFit: 'cover' }} />
+          <h4 style={{ marginTop: '10px' }}>INR</h4>
         </div>
         <div>
-          <div style={{textAlign: 'center'}}>
-            <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.<br/>
-            Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
+          <div style={{ textAlign: 'center' }}>
+            <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.<br />
+              Copyright © 1996–2024 Booking.com™. All rights reserved.</p>
           </div>
-          <div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div>
-              <h4>Booking.com</h4>
+              <h3 style={{color: 'rgb(0,60,145)'}}>Booking.com</h3>
             </div>
             <div>
-              <h3>priceline<sup>R</sup></h3>
+              <h3 style={{color: 'rgb(0,150,255)'}}>priceline<sup style={{fontSize: '7px'}}>R</sup></h3>
             </div>
-            <div>
-              <div>
-                <h3>K</h3>
+            <div style={{display: 'flex'}}>
+              <div style={{margin: '0 1px'}}>
+                <h3 style={{color: 'white', background: 'orange'}}>K</h3>
               </div>
-              <div><h3>A</h3></div>
-              <div><h3>Y</h3></div>
-              <div><h3>A</h3></div>
-              <div><h3>K</h3></div>
+              <div style={{margin: '0 1px'}}>
+                <h3 style={{color: 'white', background: 'orange'}}>A</h3>
+              </div>
+              <div style={{margin: '0 1px'}}>
+                <h3 style={{color: 'white', background: 'orange'}}>Y</h3>
+              </div>
+              <div style={{margin: '0 1px'}}>
+                <h3 style={{color: 'white', background: 'orange'}}>A</h3>
+              </div>
+              <div style={{margin: '0 1px'}}>
+                <h3 style={{color: 'white', background: 'orange'}}>K</h3>
+              </div>
             </div>
-            <div></div>
-            <div></div>
+            <div>
+              <h5>agoda</h5>
+              <div style={{margin: '-30px 0 0 0'}}>
+              <FaCircle style={{fontSize: '6px', color: 'red'}}/>
+              <FaCircle style={{fontSize: '6px', color: 'yellow'}}/>
+              <FaCircle style={{fontSize: '6px', color: 'green'}}/>
+              <FaCircle style={{fontSize: '6px', color: 'purple'}}/>
+              <FaCircle style={{fontSize: '6px', color: 'blue'}}/>
+              </div>
+            </div>
+            <div>
+            <FaCircle style={{fontSize: '4px'}}/>
+            <FaDotCircle />
+            </div>
           </div>
         </div>
       </div>
