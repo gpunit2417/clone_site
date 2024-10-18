@@ -8,7 +8,7 @@ import { GoPeople } from "react-icons/go";
 function Navbar() {
   return (
     <div>
-        <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white', height: '60vh' }}>
+      <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white', height: '60vh' }}>
         <div style={{ display: 'flex', margin: '0 120px' }}>
           <h2 style={{ marginRight: '450px' }}>Booking.com</h2>
           <h2>INR</h2>

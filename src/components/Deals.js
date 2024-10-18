@@ -3,7 +3,7 @@ import React from 'react'
 function Deals() {
   return (
     <div>
-        <div className="deals" style={{ margin: '-10px auto 0 120px' }}>
+      <div className="deals" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Deals for the weekend</h1>
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Save on stays for 18 October - 20 October</p>

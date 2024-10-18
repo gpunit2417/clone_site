@@ -3,7 +3,7 @@ import React from 'react'
 function Explore() {
   return (
     <div>
-        <div className="explore" style={{ margin: '-10px auto 0 120px' }}>
+      <div className="explore" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Explore India</h1>
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>These popular destinations have a lot to offer</p>

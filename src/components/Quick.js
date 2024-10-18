@@ -6,7 +6,7 @@ import { LuBike } from "react-icons/lu";
 function Quick() {
   return (
     <div>
-        <div className="quick" style={{ margin: '-10px auto 0 120px' }}>
+      <div className="quick" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Quick and easy trip planner</h1>
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Pick a vibe and explore the top destinations in India</p>

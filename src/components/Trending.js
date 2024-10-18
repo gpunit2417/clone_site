@@ -3,7 +3,7 @@ import React from 'react'
 function Trending() {
   return (
     <div>
-        <div className="trending" style={{ margin: '-10px auto 0 120px' }}>
+      <div className="trending" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Trending Destinations</h1>
           <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Most popular choices for travellers from India</p>

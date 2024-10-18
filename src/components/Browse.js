@@ -3,7 +3,7 @@ import React from 'react'
 function Browse() {
   return (
     <div>
-        <div className="browse" style={{ margin: '-10px auto 0 120px' }}>
+      <div className="browse" style={{ margin: '-10px auto 0 120px' }}>
         <h1>Browse by Property type in Munnar</h1>
         <div style={{ display: 'flex', width: '90%' }}>
           <div style={{ margin: '5px 5px 0 0', width: '100%', objectFit: 'cover' }}>
