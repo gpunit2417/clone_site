@@ -10,6 +10,7 @@ import { FaCircle } from "react-icons/fa";
 import { FaDotCircle } from "react-icons/fa";
 import Inspiration from './components/Inspiration';
 import Travel from './components/Travel';
+import Destination from './components/Destination';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,7 +26,7 @@ function App() {
       <Deals/>
       <Inspiration/> 
       <Travel/>
-      
+      <Destination/>
 
       
       
