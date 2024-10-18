@@ -11,6 +11,7 @@ import { FaDotCircle } from "react-icons/fa";
 import Inspiration from './components/Inspiration';
 import Travel from './components/Travel';
 import Destination from './components/Destination';
+import Tags from './components/Tags';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -27,36 +28,12 @@ function App() {
       <Inspiration/> 
       <Travel/>
       <Destination/>
-
+      <Tags/>
       
       
       
       
-      <div style={{ margin: '40px auto 0 120px', width: '80%' }}>
-        <p style={{ fontSize: '12px' }}>Countries .
-          Regions .
-          Cities .
-          Districts .
-          Airports .
-          Hotels .
-          Places of interest .
-          Holiday Homes .
-          Apartments .
-          Resorts .
-          Villas .
-          Hostels .
-          B&Bs .
-          Guest Houses .
-          Unique places to stay .
-          All destinations .<br /><br />
-          All flight destinations .
-          All car hire locations .
-          All holiday destinations .
-          Guides .
-          Discover .
-          Reviews .
-          Discover monthly stays</p>
-      </div>
+      
       <div style={{ backgroundColor: 'rgb(245,245,245)' }}>
         <div className='footer' style={{ margin: '-1px auto 0 120px', width: '80%' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
