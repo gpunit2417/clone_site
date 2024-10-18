@@ -9,6 +9,7 @@ import Deals from './components/Deals';
 import { FaCircle } from "react-icons/fa";
 import { FaDotCircle } from "react-icons/fa";
 import Inspiration from './components/Inspiration';
+import Travel from './components/Travel';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,129 +24,13 @@ function App() {
       <Quick/>
       <Deals/>
       <Inspiration/> 
-      
+      <Travel/>
       
 
       
       
-      <h1 style={{ margin: '20px auto 0 120px' }}>Travel more, spend less</h1>
-      <div className='travel' style={{ border: "1px solid grey", textAlign: "left", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem' }}>
-        <div style={{ padding: '7px 8px 15px 10px' }}>
-          <div>
-            <p>
-              <b>Sign in, save money</b>
-              <p>Save 10% or more at participating properties - just look for the blue Genius label</p>
-            </p>
-            <button style={{ backgroundColor: 'rgb(0,60,145)', color: '#fff', borderRadius: '.2rem', borderColor: 'rgb(0,60,145)', height: '35px', width: '70px' }}>
-              Sign in
-            </button>
-            <button style={{ backgroundColor: '#fff', color: 'rgb(0,60,145)', margin: '0 10px', border: 'none' }}>
-              <b>Register</b>
-            </button>
-            <img
-              src='https://t-cf.bstatic.com/design-assets/assets/v3.125.0/illustrations-traveller/GeniusGenericGiftBox.png'
-              alt="giftbox_image"
-              style={{
-                width: "9%",
-                float: "right",
-                margin: "-80px 20px 5px 0",
-              }}
-            />
-          </div>
-        </div>
-      </div>
-      <div className='travel' style={{ border: "1px solid grey", margin: '8px auto 0 120px', width: '83%', borderRadius: '.5rem', height: '45vh', display: 'flex', position: 'relative', backgroundColor: 'white', alignItems: 'center' }}>
-
-        {/* Orange circle positioned half outside */}
-        <div style={{ position: 'absolute', top: '68%', transform: 'translateY(-50%)' }}>
-          <div style={{ height: '80px', width: '40px', backgroundColor: 'orange', borderRadius: '0 5rem 5rem 0' }}>
-          </div>
-        </div>
-
-        {/* Text Section */}
-        <div style={{ flex: 1, color: 'white', textAlign: 'center', backgroundColor: '#0066cc', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderRadius: '7rem', margin: '0 10px 0 200px', width: '100px' }}>
-          <h2>Find <span style={{ fontWeight: 'bold' }}>apartments</span><br /> for your next trip</h2>
-          <button style={{ backgroundColor: 'white', color: '#0066cc', border: 'none', padding: '10px 20px', borderRadius: '.5rem', cursor: 'pointer', width: '220px', marginLeft: '27%' }}>
-            Discover homes
-          </button>
-        </div>
-
-        {/* Image Section */}
-        <div style={{ width: '40%', margin: '0 -50px 0 0' }}>
-          <img
-            src='https://cf.bstatic.com/psb/capla/static/media/bh_aw_cpg_main_image.b4347622.png'
-            alt="image"
-            style={{
-              width: "80%",
-              borderRadius: '0',
-            }}
-          />
-        </div>
-      </div>
-      <div className='destinations' style={{ margin: '-10px auto 0 120px', width: '80%' }}>
-        <h1>Destinations we love</h1>
-        <div style={{ display: 'flex' }}>
-          <div style={{ border: '1px solid rgb(65,135,255)', backgroundColor: 'rgb(235,245,255)', borderRadius: '1.2rem', height: '40px', width: '100px', margin: '10px 10px 0 0', justifyContent: 'center', borderWidth: '1.8px', color: 'rgb(65,135,255)', display: 'flex' }}>
-            <p style={{ margin: '5px 0 0 0' }}>Regions</p>
-          </div>
-          <div style={{ margin: '10px 10px 0 20px', textAlign: 'center' }}>
-            <p style={{ margin: '5px 0 0 0' }}>Cities</p>
-          </div>
-          <div style={{ margin: '10px 10px 0 20px', textAlign: 'center' }}>
-            <p style={{ margin: '5px 0 0 0' }}>Place of interest</p>
-          </div>
-        </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Lake District</h4>
-            <p>2,461 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Phuket Province</h4>
-            <p>5,547 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Zanzibar</h4>
-            <p>882 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Texel</h4>
-            <p>411 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Hawai</h4>
-            <p>5,452 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bora Bora</h4>
-            <p>69 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bihar</h4>
-            <p>781 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>England</h4>
-            <p>80,602 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Mykonos</h4>
-            <p>1,455 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Bali</h4>
-            <p>13,206 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Guernsey</h4>
-            <p>64 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Cornwall</h4>
-            <p>5,459 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Uttar Pradesh</h4>
-            <p>4,463 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Santorini</h4>
-            <p>1,794 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Jersey</h4>
-            <p>90 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Tenerife</h4>
-            <p>9,735 properties</p>
-          </div>
-          <div>
-            <h4 style={{ marginBottom: '-10px' }}>Ras Al Khaimah</h4>
-            <p>117 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Ibiza</h4>
-            <p>1,642 properties</p>
-            <h4 style={{ marginBottom: '-10px' }}>Isle of Wight</h4>
-            <p>961 properties</p>
-          </div>
-        </div>
-      </div>
+      
+      
       <div style={{ margin: '40px auto 0 120px', width: '80%' }}>
         <p style={{ fontSize: '12px' }}>Countries .
           Regions .
