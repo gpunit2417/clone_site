@@ -17,23 +17,18 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App" style={{ margin: '0', padding: '0', top: '0' }}>
-      <Navbar/>
-      <Offer/>
-      <Explore/>
-      <Trending/>
-      <Browse/>
-      <Quick/>
-      <Deals/>
-      <Inspiration/> 
-      <Travel/>
-      <Destination/>
-      <Tags/>
-      <Footer/>
-      
-      
-      
-      
-      
+      <Navbar />
+      <Offer />
+      <Explore />
+      <Trending />
+      <Browse />
+      <Quick />
+      <Deals />
+      <Inspiration />
+      <Travel />
+      <Destination />
+      <Tags />
+      <Footer />
     </div>
   );
 }
