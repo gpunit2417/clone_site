@@ -19,8 +19,8 @@ function App() {
     <div className="App" style={{ margin: '0', padding: '0', top: '0' }}>
       <Navbar />
       <Offer />
-      <Explore />
       <Trending />
+      <Explore />
       <Browse />
       <Quick />
       <Deals />
