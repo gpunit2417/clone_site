@@ -6,7 +6,7 @@ function Explore() {
       <div className="explore" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Explore India</h1>
-          <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>These popular destinations have a lot to offer</p>
+          <p style={{ fontSize: '16px', margin: '-15px auto auto auto' }}>These popular destinations have a lot to offer</p>
         </div>
 
         <div style={{ display: 'flex', width: '90%' }}>

@@ -6,7 +6,7 @@ function Inspiration() {
             <div className='inspiration' style={{ margin: '-10px auto 0 120px', width: '80%' }}>
                 <div style={{ display: 'flex' }}>
                     <h1>Get inspiration for your next trip</h1>
-                    <h3 style={{ margin: '37px 0 0 530px', color: 'blue' }}>More</h3>
+                    <h3 style={{ margin: '37px 0 0 530px', color: 'rgb(20,100,255)', fontWeight: '200' }}>More</h3>
                 </div>
                 <div style={{ display: 'flex' }}>
                     <div>

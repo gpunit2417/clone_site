@@ -9,7 +9,7 @@ function Quick() {
       <div className="quick" style={{ margin: '-10px auto 0 120px' }}>
         <div>
           <h1>Quick and easy trip planner</h1>
-          <p style={{ fontSize: '20px', margin: '-15px auto auto auto' }}>Pick a vibe and explore the top destinations in India</p>
+          <p style={{ fontSize: '16px', margin: '-15px auto auto auto' }}>Pick a vibe and explore the top destinations in India</p>
         </div>
         <div style={{ display: 'flex' }}>
           <div style={{ border: '1px solid rgb(65,135,255)', backgroundColor: 'rgb(235,245,255)', borderRadius: '1.2rem', height: '40px', width: '100px', margin: '10px 10px 0 0', textAlign: 'center', borderWidth: '1.8px', color: 'rgb(65,135,255)', display: 'flex' }}>
