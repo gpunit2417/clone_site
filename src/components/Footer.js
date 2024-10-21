@@ -14,6 +14,7 @@ function Footer() {
                             <p style={{ fontSize: '13.5px' }}>Manage your trips</p>
                             <p style={{ fontSize: '13.5px' }}>Contact customer service</p>
                             <p style={{ fontSize: '13.5px' }}>Safety resource center</p>
+                            <p style={{ fontSize: '13.5px' }}>Safety resource center</p>
                         </div>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Discover</h4>
