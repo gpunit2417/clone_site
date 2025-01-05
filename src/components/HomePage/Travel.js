@@ -11,10 +11,10 @@ function Travel() {
                             <b>Sign in, save money</b>
                             <p>Save 10% or more at participating properties - just look for the blue Genius label</p>
                         </p>
-                        <button style={{ backgroundColor: 'rgb(0,100,245)', color: '#fff', borderRadius: '.2rem', borderColor: 'rgb(0,100,245)', height: '35px', width: '70px' }}>
+                        <button style={{ backgroundColor: 'rgb(0,100,245)', color: '#fff', borderRadius: '.2rem', borderColor: 'rgb(0,100,245)', height: '35px', width: '70px', cursor: 'pointer' }}>
                             Sign in
                         </button>
-                        <button style={{ backgroundColor: '#fff', color: 'rgb(0,100,245)', margin: '0 10px', border: 'none' }}>
+                        <button style={{ backgroundColor: '#fff', color: 'rgb(0,100,245)', margin: '0 10px', border: 'none', cursor: 'pointer' }}>
                             <b>Register</b>
                         </button>
                         <img
@@ -24,6 +24,7 @@ function Travel() {
                                 width: "9%",
                                 float: "right",
                                 margin: "-80px 20px 5px 0",
+                                cursor: 'pointer'
                             }}
                         />
                     </div>

@@ -10,28 +10,28 @@ function Navbar() {
     <div>
       <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white', height: '60vh' }}>
         <div style={{ display: 'flex', margin: '0 120px' }}>
-          <h2 style={{ marginRight: '450px' }}>Booking.com</h2>
+          <h2 style={{ marginRight: '450px', cursor: 'pointer' }}>Booking.com</h2>
           <h2>INR</h2>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '26px 0 0 15px', borderRadius: '1rem', objectFit: 'cover' }} />
-          <GoQuestion style={{ margin: '24px', fontSize: '1.5rem' }} />
-          <h3 style={{ marginTop: '24px' }}>List your Property</h3>
-          <button style={{ height: '32px', margin: '20px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '75px', backgroundColor: 'white', fontWeight: '700'}}>Register</button>
-          <button style={{ height: '32px', margin: '20px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '68px', backgroundColor: 'white', fontWeight: '700'}}>Sign In</button>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '26px 0 0 15px', borderRadius: '1rem', objectFit: 'cover', cursor: 'pointer' }} />
+          <GoQuestion style={{ margin: '24px', fontSize: '1.5rem', cursor: 'pointer' }} />
+          <h3 style={{ marginTop: '24px', cursor: 'pointer' }}>List your Property</h3>
+          <button style={{ height: '32px', margin: '20px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '75px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer'}}>Register</button>
+          <button style={{ height: '32px', margin: '20px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '68px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer'}}>Sign In</button>
         </div>
 
         <div style={{ display: 'flex' }}>
           <div style={{ display: 'flex', border: '1px solid white', borderRadius: '2rem', marginLeft: '120px' }}>
             <IoBedOutline style={{ margin: '18px 5px 13px 10px' }} />
-            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100' }}>Stays</h3>
+            <h3 style={{ margin: '13px 13px 13px 2px', fontWeight: '100', cursor: 'pointer' }}>Stays</h3>
           </div>
-          <h3 style={{ margin: '13px 20px', fontWeight: '100' }}>Flights</h3>
-          <h3 style={{ margin: '13px 20px', fontWeight: '100' }}>Flight + Hotel</h3>
+          <h3 style={{ margin: '13px 20px', fontWeight: '100', cursor: 'pointer' }}>Flights</h3>
+          <h3 style={{ margin: '13px 20px', fontWeight: '100', cursor: 'pointer' }}>Flight + Hotel</h3>
           <div style={{ display: 'flex' }}>
             <FaCarAlt style={{ margin: '18px 5px 13px 10px', fontWeight: '100' }} />
-            <h3 style={{ margin: '13px 20px 13px 2px', fontWeight: '100' }}>Car rentals</h3>
+            <h3 style={{ margin: '13px 20px 13px 2px', fontWeight: '100', cursor: 'pointer' }}>Car rentals</h3>
           </div>
-          <h3 style={{ margin: '13px 20px', fontWeight: '100' }}>Attractions</h3>
-          <h3 style={{ margin: '13px 20px', fontWeight: '100' }}>Airport taxis</h3>
+          <h3 style={{ margin: '13px 20px', fontWeight: '100', cursor: 'pointer' }}>Attractions</h3>
+          <h3 style={{ margin: '13px 20px', fontWeight: '100', cursor: 'pointer' }}>Airport taxis</h3>
         </div>
 
         <div style={{ margin: '80px 0 0 120px' }}>
@@ -44,20 +44,20 @@ function Navbar() {
         <div style={{ display: 'flex', border: '1px solid orange', width: '1150px', margin: '-40px 0 0 120px', backgroundColor: 'orange', borderRadius: '.3rem', borderWidth: '2px' }}>
           <div style={{ border: '2px solid orange', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px', backgroundColor: 'white' }}>
             <IoBedOutline style={{ margin: '23px 0 13px 10px' }} />
-            <h5 style={{ marginLeft: '2px' }}>Where are you going?</h5>
+            <h5 style={{ marginLeft: '2px', cursor: 'pointer' }}>Where are you going?</h5>
           </div>
 
           <div style={{ border: '2px solid orange', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px', backgroundColor: 'white' }}>
             <SlCalender style={{ margin: '23px 0 13px 10px' }} />
-            <h5 style={{ marginLeft: '2px' }}>Check-in date - Check-out date</h5>
+            <h5 style={{ marginLeft: '2px', cursor: 'pointer' }}>Check-in date - Check-out date</h5>
           </div>
 
           <div style={{ border: '2px solid orange', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px', backgroundColor: 'white' }}>
             <GoPeople style={{ margin: '23px 0 13px 10px' }} />
-            <h5 style={{ marginLeft: '2px' }}>2 adults. 0 children. 1 room</h5>
+            <h5 style={{ marginLeft: '2px', cursor: 'pointer' }}>2 adults. 0 children. 1 room</h5>
           </div>
 
-          <button style={{ width: '145px', backgroundColor: 'rgb(0,62,255)', borderRadius: '.3rem', borderWidth: '2px', border: '1px solid orange', color: 'white' }}>Search</button>
+          <button style={{ width: '145px', backgroundColor: 'rgb(0,62,255)', borderRadius: '.3rem', borderWidth: '2px', border: '1px solid orange', color: 'white', cursor: 'pointer' }}>Search</button>
         </div>
       </div>
 

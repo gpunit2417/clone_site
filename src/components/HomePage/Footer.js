@@ -10,75 +10,75 @@ function Footer() {
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Support</h4>
-                            <p style={{ fontSize: '13.5px' }}>Coronavirus (COVID-19) FAQs</p>
-                            <p style={{ fontSize: '13.5px' }}>Manage your trips</p>
-                            <p style={{ fontSize: '13.5px' }}>Contact customer service</p>
-                            <p style={{ fontSize: '13.5px' }}>Safety resource center</p>
-                            <p style={{ fontSize: '13.5px' }}>Safety resource center</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Coronavirus (COVID-19) FAQs</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Manage your trips</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Contact customer service</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Safety resource center</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Safety resource center</p>
                         </div>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Discover</h4>
-                            <p style={{ fontSize: '13.5px' }}>Genius loyalty programme
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Genius loyalty programme
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Seasonal and holiday deals
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Seasonal and holiday deals
 
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Travel articles
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Travel articles
 
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Booking.com for Business
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Booking.com for Business
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Traveller Review Awards</p>
-                            <p style={{ fontSize: '13.5px' }}>Car hire</p>
-                            <p style={{ fontSize: '13.5px' }}>Flight finder
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Traveller Review Awards</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Car hire</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Flight finder
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Restaurant reservations
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Restaurant reservations
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Booking.com for Travel Agents</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Booking.com for Travel Agents</p>
                         </div>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Mykonos</h4>
-                            <p style={{ fontSize: '13.5px' }}>Privacy & cookies
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Privacy & cookies
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Terms and conditions
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Terms and conditions
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Grievance officer
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Grievance officer
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Modern Slavery Statement
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Modern Slavery Statement
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Human Rights Statement</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Human Rights Statement</p>
                         </div>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Uttar Pradesh</h4>
-                            <p style={{ fontSize: '13.5px' }}>Extranet login
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Extranet login
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Partner help
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Partner help
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>List your property
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>List your property
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Become an affiliate</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Become an affiliate</p>
                         </div>
                         <div>
                             <h4 style={{ marginBottom: '-10px', fontSize: '14px' }}>Ras Al Khaimah</h4>
-                            <p style={{ fontSize: '13.5px' }}>About Booking.com
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>About Booking.com
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>How we work
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>How we work
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Sustainability
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Sustainability
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Press centre
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Press centre
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Careers
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Careers
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Investor relations
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Investor relations
                             </p>
-                            <p style={{ fontSize: '13.5px' }}>Corporate contact</p>
+                            <p style={{ fontSize: '13.5px', cursor: 'pointer' }}>Corporate contact</p>
                         </div>
                     </div>
                 </div>
                 <div style={{ margin: '-1px auto 0 110px', width: '80%', display: 'flex' }}>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '10px 40px 0 15px', borderRadius: '1rem', objectFit: 'cover' }} />
-                    <h4 style={{ marginTop: '10px' }}>INR</h4>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1J4X8LJ0h28DpeUykXQcMiNAXXWLhvhW0g&s" alt="flag" style={{ height: '25px', width: '25px', margin: '10px 40px 0 15px', borderRadius: '1rem', objectFit: 'cover', cursor: 'pointer' }} />
+                    <h4 style={{ marginTop: '10px', cursor: 'pointer' }}>INR</h4>
                 </div>
                 <hr style={{ width: '80%', backgroundColor: 'lightgrey', border: 'none', height: '1px' }} />
                 <div>

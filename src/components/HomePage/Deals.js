@@ -11,7 +11,7 @@ function Deals() {
 
         <div style={{ display: 'flex', justifyContent: 'space-around', width: '93%' }}>
           <div className="places" style={{ width: '69%', margin: '20px 5px 10px 0', borderRadius: '.5rem',  backgroundColor: 'rgb(250,250,250)', border: '1px solid rgb(245,245,245)', boxShadow: '1px 1px rgb(240,240,240)'}}>
-            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052521.jpg?k=a6bd9352c790d92b6969bcfbab4ec45793e60579c6212519ad6d4f6817e41219&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem' }} />
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052521.jpg?k=a6bd9352c790d92b6969bcfbab4ec45793e60579c6212519ad6d4f6817e41219&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem', cursor: 'pointer' }} />
             <p style={{ border: 'rgb(0, 60, 145)', width: '45px', fontSize: '12px', textAlign: 'center', backgroundColor: 'rgb(0, 60, 145)', color: '#fff', borderRadius: '.1rem', margin: '2px 4px' }}>Genius</p>
             <h4 style={{ margin: '5px 0px 0px 2px' }}>Hotel Oasis Grand Near IGI Delhi Airport</h4>
             <p style={{ margin: '0px 2px' }}>New Delhi, India</p>
@@ -28,7 +28,7 @@ function Deals() {
           </div>
 
           <div className="places" style={{ width: '69%', margin: '20px 5px 10px 0', borderRadius: '.5rem',  backgroundColor: 'rgb(250,250,250)', border: '1px solid rgb(245,245,245)', boxShadow: '1px 1px rgb(240,240,240)'}}>
-            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018250.jpg?k=7b9d3f59146dead4c932675f7c1bd5f6f4f74390c5584d00320cc51d6593ba3a&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem' }} />
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018250.jpg?k=7b9d3f59146dead4c932675f7c1bd5f6f4f74390c5584d00320cc51d6593ba3a&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem', cursor: 'pointer' }} />
             <p style={{ border: 'rgb(0, 60, 145)', width: '45px', fontSize: '12px', textAlign: 'center', backgroundColor: 'rgb(0, 60, 145)', color: '#fff', borderRadius: '.1rem', margin: '2px 4px' }}>Genius</p>
             <h4 style={{ margin: '5px 0px 0px 2px' }}>Trim Boutique Parkota Haveli</h4>
             <p style={{ margin: '0px 2px' }}>Jaipur, India</p>
@@ -45,7 +45,7 @@ function Deals() {
           </div>
 
           <div className="places" style={{ width: '69%', margin: '20px 5px 10px 0', borderRadius: '.5rem',  backgroundColor: 'rgb(250,250,250)', border: '1px solid rgb(245,245,245)', boxShadow: '1px 1px rgb(240,240,240)'}}>
-            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018293.jpg?k=eba1b4abc1a196e422d559e205efd895999a9f5e643bc09544d91f9d18b30733&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem' }} />
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140018293.jpg?k=eba1b4abc1a196e422d559e205efd895999a9f5e643bc09544d91f9d18b30733&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem', cursor: 'pointer' }} />
             <p style={{ border: 'rgb(0, 60, 145)', width: '45px', fontSize: '12px', textAlign: 'center', backgroundColor: 'rgb(0, 60, 145)', color: '#fff', borderRadius: '.1rem', margin: '2px 4px' }}>Genius</p>
             <h4 style={{ margin: '5px 0px 0px 2px' }}>Limewood Stay - Executive Huda City Center</h4>
             <p style={{ margin: '0px 2px' }}>Gurgaon, India</p>
@@ -62,7 +62,7 @@ function Deals() {
           </div>
 
           <div className="places" style={{ width: '69%', margin: '20px 5px 10px 0', borderRadius: '.5rem',  backgroundColor: 'rgb(250,250,250)', border: '1px solid rgb(245,245,245)', boxShadow: '1px 1px rgb(240,240,240)'}}>
-            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052552.jpg?k=478b1b6119830c85ba58e1509b36890c1c9083974446f9f132aedbbed0af877d&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem' }} />
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/300x240/140052552.jpg?k=478b1b6119830c85ba58e1509b36890c1c9083974446f9f132aedbbed0af877d&o=" alt="location" style={{ width: '280px', height: '207px', borderRadius: '.5rem .5rem .1rem .1rem', cursor: 'pointer' }} />
             <p style={{ border: 'rgb(0, 60, 145)', width: '45px', fontSize: '12px', textAlign: 'center', backgroundColor: 'rgb(0, 60, 145)', color: '#fff', borderRadius: '.1rem', margin: '2px 4px' }}>Genius</p>
             <h4 style={{ margin: '5px 0px 0px 2px' }}>Hotel Luxury Villa Near Delhi Airport</h4>
             <p style={{ margin: '0px 2px' }}>New Delhi, India</p>
