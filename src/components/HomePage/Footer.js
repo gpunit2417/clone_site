@@ -5,7 +5,7 @@ import { FaDotCircle } from "react-icons/fa";
 function Footer() {
     return (
         <div>
-            <div style={{ backgroundColor: 'rgb(245,245,245)' }}>
+            <div style={{ backgroundColor: 'rgb(245,245,245)', color: 'black' }}>
                 <div className='footer' style={{ margin: '-1px auto 0 120px', width: '80%' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                         <div>
