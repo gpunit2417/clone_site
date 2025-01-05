@@ -1,16 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Offer from './components/Offer';
-import Explore from './components/Explore';
-import Trending from './components/Trending';
-import Browse from './components/Browse';
-import Quick from './components/Quick';
-import Deals from './components/Deals';
-import Inspiration from './components/Inspiration';
-import Travel from './components/Travel';
-import Destination from './components/Destination';
-import Tags from './components/Tags';
-import Footer from './components/Footer';
+import Navbar from './components/HomePage/Navbar';
+import Offer from './components/HomePage/Offer';
+import Explore from './components/HomePage/Explore';
+import Trending from './components/HomePage/Trending';
+import Browse from './components/HomePage/Browse';
+import Quick from './components/HomePage/Quick';
+import Deals from './components/HomePage/Deals';
+import Inspiration from './components/HomePage/Inspiration';
+import Travel from './components/HomePage/Travel';
+import Destination from './components/HomePage/Destination';
+import Tags from './components/HomePage/Tags';
+import Footer from './components/HomePage/Footer';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
