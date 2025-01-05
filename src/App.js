@@ -11,6 +11,7 @@ import Travel from './components/HomePage/Travel';
 import Destination from './components/HomePage/Destination';
 import Tags from './components/HomePage/Tags';
 import Footer from './components/HomePage/Footer';
+import MainContent from './components/HomePage/MainContent';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App" style={{ margin: '0', padding: '0', top: '0' }}>
       <Navbar />
+      <MainContent/>
       <Offer />
       <Trending />
       <Explore />
