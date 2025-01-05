@@ -3,7 +3,7 @@ import React from 'react'
 function Offer() {
   return (
     <div>
-      <div className="offer-section" style={{ margin: '50px auto 0 120px' }}>
+      <div className="offer-section" style={{ margin: '100px auto 0 120px' }}>
         <div>
           <h1>Offers</h1>
           <p style={{ fontSize: '16px', margin: '-15px auto auto auto' }}>Promotions, Deals and special offers for you</p>
