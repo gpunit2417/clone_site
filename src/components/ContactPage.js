@@ -7,10 +7,12 @@ import { FaCarAlt } from "react-icons/fa";
 import { PiDotsThreeOutlineThin } from "react-icons/pi";
 import { FaAngleUp } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa6";
+import Navbar from './HomePage/Navbar';
 
 function ContactPage() {
   return (
     <div>
+      <Navbar/>
       <p style={{ margin: '30px 120px', fontSize: '.7rem' }}>Help Center</p>
       <div className="card" style={{ border: '1px solid lightgrey', borderRadius: '5px', margin: ' auto 120px' }}>
         <div style={{ display: 'flex' }}>

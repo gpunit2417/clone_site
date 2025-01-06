@@ -8,9 +8,12 @@ import { PiCityLight } from "react-icons/pi";
 import { MdOutlineBeachAccess } from "react-icons/md";
 import { LuBike } from "react-icons/lu";
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 function MainContent() {
     return (
+        <div>
+            <Navbar/>
         <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white', height: '48vh' }}>
             <div>
                 <div style={{ display: 'flex' }}>
@@ -36,7 +39,7 @@ function MainContent() {
 
             <div>
                 <div style={{ display: 'flex', border: '1px solid orange', width: '1150px', margin: '25px 0 0 120px', backgroundColor: 'orange', borderRadius: '.3rem', borderWidth: '2px' }}>
-                    <div style={{ border: '2px solid orange', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px', backgroundColor: 'white' }}>
+                    <div style={{ border: '2px solid orange', width: '335px', display: 'flex', borderRadius: '.3rem', borderWidth: '2px', backgroundColor: 'white', color: 'black' }}>
                         <IoBedOutline style={{ margin: '23px 0 13px 10px' }} />
                         <h5 style={{ marginLeft: '2px', cursor: 'pointer' }}>Where are you going?</h5>
                     </div>
@@ -521,6 +524,7 @@ function MainContent() {
             </div>
             <Footer />
         </div >
+        </div>
     )
 }
 
