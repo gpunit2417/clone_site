@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoCheckmarkOutline } from "react-icons/io5";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 function ListProperty() {
     return (
@@ -54,50 +55,57 @@ function ListProperty() {
                 </div>
             </div>
 
-            <div className="main">
-                <div>
+            <div className="main" style={{margin: 'auto 120px'}}>
+                <div style={{marginTop: '70px'}}>
                     <div>
-                        <p style={{fontSize: '50px'}}>List with peace of mind</p>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>List with peace of mind</p>
                     </div>
-                    <div style={{display: 'flex'}}>
+                    <div style={{display: 'flex', marginTop: '-20px'}}>
                         <div>
-                            <div>
-                                <h3>Damage payments</h3>
-                                <p>Our damage programme covers your property in case of damages.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Damage payments</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Our <a style={{color: 'rgb(13, 110, 253)'}}>damage programme</a> covers your property in case of damages.</p>
                             </div>
-                            <div>
-                                <h3>Your own house rules</h3>
-                                <p>Communicate your house rules to potential guests who must agree to them in order to book.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Your own house rules</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Communicate your house rules to potential guests who must agree to them in order to book.</p>
                             </div>
-                            <div>
-                                <h3>Choose how you prefer to recieve bookings</h3>
-                                <p>Either by letting guests book instantly, or by reviewing booking requests before accepting them.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Choose how you prefer to recieve bookings</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Either by letting guests book instantly, or by <a style={{color: 'rgb(13, 110, 253)'}}>reviewing booking requests</a> before accepting them.</p>
                             </div>
-                            <div>
-                                <h3>Protection from liability claims</h3>
-                                <p>Receive protection against liability claims from guests and neighbours of up to €/£/$1,000,000 for each reservation.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Protection from liability claims</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Receive <a style={{color: 'rgb(13, 110, 253)'}}>protection against liability claims</a> from guests and<br/> neighbours of up to €/£/$1,000,000 for each reservation.</p>
                             </div>
-                            <button>List with peace of mind today</button>
+                            <button style={{padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500'}}>List with peace of mind today</button>
                         </div>
-                        <div>
-                            <div>
-                                <h3>Get paid and secure your finances</h3>
-                                <p>Get guaranteed payouts and fraud protection through Payments by Booking.com.</p>
+                        <div style={{margin: '0 -30px 0 40px'}}>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Get paid and secure your finances</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Get guaranteed payouts and fraud protection through <a style={{color: 'rgb(13, 110, 253)'}}>Payments by Booking.com</a>.</p>
                             </div>
-                            <div>
-                                <h3>Verified guests</h3>
-                                <p>We verify guests email addresses and credit cards for partners on Payments by Booking.com.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Verified guests</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>We verify guests email addresses and credit cards for partners on Payments by Booking.com.</p>
                             </div>
-                            <div>
-                                <h3>Robust Support</h3>
-                                <p>Access support in 45 languages and manage your property through Pulse, our app for partners like you.</p>
+                            <div style={{marginBottom: '27px'}}>
+                                <IoCheckmarkCircleOutline style={{fontSize: '35px'}}/>
+                                <h3 style={{margin: '-35px 0 0 50px'}}>Robust Support</h3>
+                                <p style={{margin: '3px 0 0 50px'}}>Access support in 45 languages and manage your property through Pulse, our app for partners like you.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <p style={{fontSize: '50px'}}>Stand out from the start</p>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>Stand out from the start</p>
                     </div>
                     <div style={{display: 'flex'}}>
                         <div>
