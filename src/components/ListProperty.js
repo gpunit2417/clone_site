@@ -55,8 +55,8 @@ function ListProperty() {
                 </div>
             </div>
 
-            <div className="main" style={{margin: 'auto 120px'}}>
-                <div style={{marginTop: '70px'}}>
+            <div className="main" >
+                <div style={{margin: '70px 120px 0 120px'}}>
                     <div>
                         <p style={{fontSize: '50px', fontWeight: '700'}}>List with peace of mind</p>
                     </div>
@@ -103,26 +103,26 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div style={{margin: '120px 120px 0 120px', backgroundColor: 'lightgrey'}}>
                     <div>
                         <p style={{fontSize: '50px', fontWeight: '700'}}>Stand out from the start</p>
                     </div>
-                    <div style={{display: 'flex'}}>
-                        <div>
+                    <div style={{display: 'flex', margin: '-20px 0 0 0'}}>
+                        <div style={{width: '30vw', margin: '0 50px 0 0'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Review.png" alt="" />
                             <h3>Import your reviews</h3>
-                            <p>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
-                            <button>Import your listing</button>
+                            <p style={{margin: '-12px 0 20px 0', lineHeight: '23px'}}>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
+                            <button style={{padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500'}}>Import your listing</button>
                         </div>
-                        <div>
+                        <div style={{width: '30vw', margin: '0 30px 0 0'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Puzzle.png" alt="" />
                             <h3>Import your property details</h3>
-                            <p>Seamlessly import your property details and sync your availability calendar with other platforms to make it easy to list and avoid double bookings.</p>
+                            <p style={{margin: '-12px 0 0 0', lineHeight: '23px'}}>Seamlessly import your property details and sync your availability calendar with other platforms to make it easy to list and avoid double bookings.</p>
                         </div>
-                        <div>
+                        <div style={{width: '30vw'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Search.png" alt="" />
                             <h3>Stand out in the market</h3>
-                            <p>The ‘New to Booking.com’ label helps you stand out in our search results.</p>
+                            <p style={{margin: '-12px 0 0 0', lineHeight: '20px'}}>The ‘New to Booking.com’ label helps you stand out in our search results.</p>
                         </div>
                     </div>
                 </div>
