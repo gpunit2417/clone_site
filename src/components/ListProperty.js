@@ -103,23 +103,23 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div style={{margin: '120px 120px 0 120px', backgroundColor: 'lightgrey'}}>
-                    <div>
-                        <p style={{fontSize: '50px', fontWeight: '700'}}>Stand out from the start</p>
+                <div style={{ backgroundColor: 'rgb(240, 240, 240)'}}>
+                    <div style={{margin: '40px 0 0 120px', paddingTop: '30px'}}>
+                        <p style={{fontSize: '50px', fontWeight: '700', margin: ''}}>Stand out from the start</p>
                     </div>
                     <div style={{display: 'flex', margin: '-20px 0 0 0'}}>
-                        <div style={{width: '30vw', margin: '0 50px 0 0'}}>
+                        <div style={{width: '25vw', margin: '0 50px 0 120px'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Review.png" alt="" />
                             <h3>Import your reviews</h3>
                             <p style={{margin: '-12px 0 20px 0', lineHeight: '23px'}}>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
                             <button style={{padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500'}}>Import your listing</button>
                         </div>
-                        <div style={{width: '30vw', margin: '0 30px 0 0'}}>
+                        <div style={{width: '25vw', margin: '0 30px 0 0'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Puzzle.png" alt="" />
                             <h3>Import your property details</h3>
                             <p style={{margin: '-12px 0 0 0', lineHeight: '23px'}}>Seamlessly import your property details and sync your availability calendar with other platforms to make it easy to list and avoid double bookings.</p>
                         </div>
-                        <div style={{width: '30vw'}}>
+                        <div style={{width: '23vw'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Search.png" alt="" />
                             <h3>Stand out in the market</h3>
                             <p style={{margin: '-12px 0 0 0', lineHeight: '20px'}}>The ‘New to Booking.com’ label helps you stand out in our search results.</p>
@@ -135,5 +135,5 @@ function ListProperty() {
         </div>
     )
 }
-
+// 	https://r-xx.bstatic.com/cdata/joinapp/world_map.svg
 export default ListProperty
