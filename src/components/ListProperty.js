@@ -126,7 +126,34 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <div>
+                        <p>Reach a unique global customer base</p>
+                    </div>
+                    <div style={{display: 'flex'}}>
+                        <div>
+                            <div>
+                                <p>2/3</p>
+                                <p>of holiday rental guests return to book with us again</p>
+                            </div>
+                            <div>
+                                <p>33%</p>
+                                <p>of holiday rental customers are at Genius Level 2 or 3. These travellers tend to spend more and book directly on our platform.</p>
+                            </div>
+                            <button  style={{padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500'}}>Grow your customer base</button>
+                        </div>
+                        <div>
+                            <div>
+                                <p>48%</p>
+                                <p>of nights booked by travellers at the end of 2023 were for international stays.</p>
+                            </div>
+                            <div>
+                                <p>30%</p>
+                                <p>of all nights booked on our platform were at a holiday rental. More and more travellers flex book both hotels and alternative accommodation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div></div>
                 <div></div>
             </div>
