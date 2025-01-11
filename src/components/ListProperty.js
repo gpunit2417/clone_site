@@ -99,10 +99,23 @@ function ListProperty() {
                     <div>
                         <p style={{fontSize: '50px'}}>Stand out from the start</p>
                     </div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div style={{display: 'flex'}}>
+                        <div>
+                            <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Review.png" alt="" />
+                            <h3>Import your reviews</h3>
+                            <p>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
+                            <button>Import your listing</button>
+                        </div>
+                        <div>
+                            <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Puzzle.png" alt="" />
+                            <h3>Import your property details</h3>
+                            <p>Seamlessly import your property details and sync your availability calendar with other platforms to make it easy to list and avoid double bookings.</p>
+                        </div>
+                        <div>
+                            <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Search.png" alt="" />
+                            <h3>Stand out in the market</h3>
+                            <p>The ‘New to Booking.com’ label helps you stand out in our search results.</p>
+                        </div>
                     </div>
                 </div>
                 <div></div>
