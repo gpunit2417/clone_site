@@ -54,7 +54,61 @@ function ListProperty() {
                 </div>
             </div>
 
-            <div className="main"></div>
+            <div className="main">
+                <div>
+                    <div>
+                        <p style={{fontSize: '50px'}}>List with peace of mind</p>
+                    </div>
+                    <div style={{display: 'flex'}}>
+                        <div>
+                            <div>
+                                <h3>Damage payments</h3>
+                                <p>Our damage programme covers your property in case of damages.</p>
+                            </div>
+                            <div>
+                                <h3>Your own house rules</h3>
+                                <p>Communicate your house rules to potential guests who must agree to them in order to book.</p>
+                            </div>
+                            <div>
+                                <h3>Choose how you prefer to recieve bookings</h3>
+                                <p>Either by letting guests book instantly, or by reviewing booking requests before accepting them.</p>
+                            </div>
+                            <div>
+                                <h3>Protection from liability claims</h3>
+                                <p>Receive protection against liability claims from guests and neighbours of up to €/£/$1,000,000 for each reservation.</p>
+                            </div>
+                            <button>List with peace of mind today</button>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Get paid and secure your finances</h3>
+                                <p>Get guaranteed payouts and fraud protection through Payments by Booking.com.</p>
+                            </div>
+                            <div>
+                                <h3>Verified guests</h3>
+                                <p>We verify guests email addresses and credit cards for partners on Payments by Booking.com.</p>
+                            </div>
+                            <div>
+                                <h3>Robust Support</h3>
+                                <p>Access support in 45 languages and manage your property through Pulse, our app for partners like you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p style={{fontSize: '50px'}}>Stand out from the start</p>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
             <div className="footer"></div>
         </div>
