@@ -19,15 +19,15 @@ function ListProperty() {
                 </div>
 
                 <div style={{ display: 'flex' }}>
-                    <div style={{ margin: '70px 50px auto 120px' }}>
-                        <h1>List your</h1>
-                        <h1 style={{ color: 'rgb(13, 110, 253)' }}>apartment</h1>
-                        <h1>on Booking.com</h1>
-                        <h2 style={{ fontWeight: '400', fontSize: '23px' }}>Whether hosting is your sideline passion or full-time job, list your home today and quickly start earning more income.</h2>
+                    <div style={{ margin: '30px 50px auto 120px' }}>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>List your</p>
+                        <p style={{ color: 'rgb(13, 110, 253)', fontSize: '50px', fontWeight: '700', margin: '-50px 0' }}>apartment</p>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>on Booking.com</p>
+                        <h2 style={{ fontWeight: '500', fontSize: '23px', margin: '-40px auto' }}>Whether hosting is your sideline passion or full-time job, list your home today and quickly start earning more income.</h2>
                     </div>
 
                     {/* <div> */}
-                    <div style={{ backgroundColor: 'white', color: 'black', border: '6px solid orange', borderRadius: '7px', margin: '40px 100px', height: '60vh', width: '150vh' }}>
+                    <div style={{ backgroundColor: 'white', color: 'black', border: '6px solid orange', borderRadius: '7px', margin: '30px 115px 40px -1px', height: '60vh', width: '30vw' }}>
                         <h2 style={{ margin: '20px 27px 10px 27px' }}>Register for free</h2>
 
                         <IoCheckmarkOutline style={{ color: 'rgb(18, 122, 27)', fontSize: '1.5rem', margin: '10px 2px 1px 27px' }} />
