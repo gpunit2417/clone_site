@@ -155,83 +155,89 @@ function ListProperty() {
                     </div>
                 </div>
                 <div style={{ backgroundColor: 'rgb(240, 240, 240)' }}>
-                    <div style={{ margin: '10px 0 0 120px' }}>
+                    <div style={{ margin: '0 0 0 120px', paddingTop: '40px' }}>
                         <p style={{ fontSize: '50px', fontWeight: '700' }}>What hosts like you say</p>
                     </div>
-                    <div style={{ display: 'flex', margin: '0 120px' }}>
+                    <div style={{ display: 'flex', margin: '0 120px', paddingBottom: '50px' }}>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“I was able to list within 15 minutes, and no more than two hours later, I had my first booking!”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 20px 70px 0', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“I was able to list within 15 minutes, and no more than two hours later, I had my first booking!”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max1024x100/Ukyc4Gwipc8i5A_1fBPHdxgI7Yu5yIKj7ShaZze2j_QHDEvQlQrUm_ZXUHgsDGecDmjBfbptfqP5pihKsEhz26lCZI7nnEP0kH1pmN7i.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Parley Rose</h5>
-                                <p>UK-based host</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Parley Rose</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>UK-based host</p>
                             </div>
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“Travellers come to Charming Lofts from all over the world. Booking.com really helps with that. Unlike some other platforms, it's multinational and caters to a much larger audience. For me, that was a real game-changer.”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '30px 20px 25px 0', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“Travellers come to Charming Lofts from all over the world. Booking.com really helps with that. Unlike some other platforms, it's multinational and caters to a much larger audience. For me, that was a real game-changer.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5MpkasdbWZXwRW2b-NKOV1BoXXjrUFjSx_oyNFEkzze_bg6haOnPb0kCxtdGSoKDXFMNyBw0pUgNt-L4ge4hSRhYuKg=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Louis Gonzalez</h5>
-                                <p>Charming Lofts, Los Angeles</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Louis Gonzalez</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>Charming Lofts, Los Angeles</p>
                             </div>
 
                             <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500' }}>Join hosts like you</button>
                         </div>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“Booking.com is the most straightforward [OTA] to work with. Everything is clear. It’s easy. And it frees us up to focus on the aspects that we can really add value to, like the guest experience.”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 30px 6px', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“Booking.com is the most straightforward [OTA] to work with. Everything is clear. It’s easy. And it frees us up to focus on the aspects that we can really add value to, like the guest experience.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5CH5gAVsSjtWdunQi9-51tJLCwQPf2PGW_xGqh1WC9mkm4DI40UmWrOqC3iaI-WDrY8mGyL2ApuMLznWMrGdV4lNb18=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Martin Fieldman</h5>
-                                <p>Managing Director, Abodebed</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Martin Fieldman</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>Managing Director, Abodebed</p>
                             </div>
 
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“After joining Booking.com and setting up the listing, my occupancy went up significantly and bookings were coming in five to six months in advance.”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '10px 10px 10px 6px', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“After joining Booking.com and setting up the listing, my occupancy went up significantly and bookings were coming in five to six months in advance.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5Lz1EpeaLFAoRVrkjWkJuqInmhVXyBn1VIJmr0kwpen5i0mwkkTrdi1mmdTA5YgA1GojSo7bbef9Axi9afPN815cWl0=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Zoey Berghoff</h5>
-                                <p>US-based host</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Zoey Berghoff</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>US-based host</p>
                             </div>
                         </div>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“Booking.com accounts for our largest share of guests and has helped get us where we are today.”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 50px 16px', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“Booking.com accounts for our largest share of guests and has helped get us where we are today.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/UktFsp563N_OGPALUNtthVGWa-r1FwOhH-BJbJAJmx7L1SLmPJZGoQ8uBrkYVkhwyFMUf7CEvE_3BJ1pS80Ny3rpE1jC2f6P2ek_r4I=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Michel and Asja</h5>
-                                <p>Owners of La Maison de Souhey</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Michel and Asja</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>Owners of La Maison de Souhey</p>
                             </div>
-                            <div style={{ border: '1px solid orange', borderRadius: '5px' }}>
-                                <p>“Getting started with Booking.com was super simple and took no time at all.”</p>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 10px 16px', backgroundColor: '#fff' }}>
+                                <p style={{fontSize: '.9rem', margin: '15px 10px 25px 15px'}}>“Getting started with Booking.com was super simple and took no time at all.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5GMsGtAVVjxhdtTmFe3tRNWntQU0Skp4BuJQ1Cm_cQ7Qjq9zZPKYsb0DDiJCLVSkGoKQwqTXNJyePN0tX4xeNJNzd6E=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
                                     height: '60px', // Height must match width
                                     borderRadius: '50%', // Makes it circular
                                     objectFit: 'cover',
+                                    margin: '0 0 10px 15px'
                                 }} />
-                                <h5>Shawn Ritzenthaler</h5>
-                                <p>Onwer of The Hollywood Hills Mansion</p>
+                                <h5 style={{margin: '-60px 0 5px 88px'}}>Shawn Ritzenthaler</h5>
+                                <p style={{fontSize: '.75rem', margin: '-1px 0 25px 88px'}}>Onwer of The Hollywood Hills Mansion</p>
                             </div>
                         </div>
                     </div>
