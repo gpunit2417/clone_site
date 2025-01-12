@@ -154,9 +154,9 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <p>What hosts like you say</p>
+                <div style={{ backgroundColor: 'rgb(240, 240, 240)'}}>
+                    <div style={{margin: '10px 0 0 120px'}}>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>What hosts like you say</p>
                     </div>
                     <div style={{display
                         : 'flex'
