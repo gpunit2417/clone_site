@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { FaChevronDown } from "react-icons/fa";
 
 function ListProperty() {
     return (
@@ -242,21 +243,23 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div style={{margin: '60px 120px 40px 120px'}}>
                     <div>
-                        <p>Your questions answered</p>
+                        <p style={{fontSize: '50px', fontWeight: '700'}}>Your questions answered</p>
                     </div>
                     <div style={{display: 'flex'}}>
-                        <div>
+                        <div style={{margin: '-20px 30px 0 0', width: '50%'}}>
                             <hr />
-                            <p>What happens if my property is damaged by a guest?</p>
+                            <p style={{fontWeight: '700', fontSize: '1.25rem', width: '35vw'}}>What happens if my property is damaged by a guest?</p><FaChevronDown style={{float: 'right', marginTop: '-55px'}}/>
+
                             <hr />
-                            <p>Still have questions? Find answers to all your questions on our FAQ</p>
-                            <button>Start welcoming guests</button>
+                            <p style={{margin: '30px 0 50px 0'}}>Still have questions? Find answers to all your questions on our <a style={{color: 'rgb(13, 110, 253)'}}>FAQ</a></p>
+                            <button style={{padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15.5px', fontWeight: '700'}}>Start welcoming guests</button>
                         </div>
-                        <div>
+                        <div style={{margin: '-20px 30px 0 0', width: '50%'}}>
                         <hr />
-                            <p>When will my property go online?</p>
+                            <p style={{fontWeight: '700', fontSize: '1.25rem', width: '35vw'}}>When will my property go online?</p><FaChevronDown style={{float: 'right', marginTop: '-40px'}}/>
+
                             <hr />
                         </div>
                     </div>
