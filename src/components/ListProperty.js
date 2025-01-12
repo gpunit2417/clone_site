@@ -242,7 +242,25 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <div>
+                        <p>Your questions answered</p>
+                    </div>
+                    <div style={{display: 'flex'}}>
+                        <div>
+                            <hr />
+                            <p>What happens if my property is damaged by a guest?</p>
+                            <hr />
+                            <p>Still have questions? Find answers to all your questions on our FAQ</p>
+                            <button>Start welcoming guests</button>
+                        </div>
+                        <div>
+                        <hr />
+                            <p>When will my property go online?</p>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="footer"></div>
