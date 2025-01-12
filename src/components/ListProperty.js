@@ -108,7 +108,7 @@ function ListProperty() {
                         <p style={{fontSize: '50px', fontWeight: '700', margin: ''}}>Stand out from the start</p>
                     </div>
                     <div style={{display: 'flex', margin: '-20px 0 0 0'}}>
-                        <div style={{width: '25vw', margin: '0 50px 0 120px'}}>
+                        <div style={{width: '25vw', margin: '0 50px 40px 120px'}}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Review.png" alt="" />
                             <h3>Import your reviews</h3>
                             <p style={{margin: '-12px 0 20px 0', lineHeight: '23px'}}>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
@@ -126,30 +126,30 @@ function ListProperty() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <p>Reach a unique global customer base</p>
+                <div style={{backgroundImage: 'url(https://r-xx.bstatic.com/cdata/joinapp/world_map.svg)'}}>
+                    <div style={{margin: '76px 0 0 120px'}}>
+                        <p style={{fontSize: '47px', fontWeight: '700'}}>Reach a unique global customer base</p>
                     </div>
                     <div style={{display: 'flex'}}>
-                        <div>
+                        <div style={{margin: '-40px 20px 50px 120px'}}>
                             <div>
-                                <p>2/3</p>
-                                <p>of holiday rental guests return to book with us again</p>
+                                <p style={{fontSize: '45px', fontWeight: '700'}}>2/3</p>
+                                <p style={{margin: '-40px 0 94px 0'}}>of holiday rental guests return to book with us again</p>
                             </div>
                             <div>
-                                <p>33%</p>
-                                <p>of holiday rental customers are at Genius Level 2 or 3. These travellers tend to spend more and book directly on our platform.</p>
+                                <p style={{fontSize: '45px', fontWeight: '700'}}>33%</p>
+                                <p style={{margin: '-40px 0 30px 0'}}>of holiday rental customers are at Genius Level 2 or 3. These travellers tend to spend more and book directly on our platform.</p>
                             </div>
                             <button  style={{padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500'}}>Grow your customer base</button>
                         </div>
-                        <div>
+                        <div style={{margin: '-45px 120px 10px 70px'}}>
                             <div>
-                                <p>48%</p>
-                                <p>of nights booked by travellers at the end of 2023 were for international stays.</p>
+                                <p style={{fontSize: '45px', fontWeight: '700'}}>48%</p>
+                                <p style={{margin: '-40px 0 75px 0'}}>of nights booked by travellers at the end of 2023 were for international stays.</p>
                             </div>
                             <div>
-                                <p>30%</p>
-                                <p>of all nights booked on our platform were at a holiday rental. More and more travellers flex book both hotels and alternative accommodation.</p>
+                                <p style={{fontSize: '45px', fontWeight: '700'}}>30%</p>
+                                <p style={{margin: '-40px 0 4px 0'}}>of all nights booked on our platform were at a holiday rental. More and more travellers flex book both hotels and alternative accommodation.</p>
                             </div>
                         </div>
                     </div>
