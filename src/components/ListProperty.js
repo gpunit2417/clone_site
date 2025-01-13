@@ -10,15 +10,15 @@ function ListProperty() {
             <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white' }}>
                 <div style={{ display: 'flex', margin: '0 120px' }}>
                     <h2 style={{ marginRight: '600px', cursor: 'pointer' }}>
-                        <a href='/' style={{ color: 'white', textDecoration: 'none' }}>Booking.com</a></h2>
+                        <a href='/' style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Booking.com</a></h2>
                     <img src='https://q-xx.bstatic.com/backend_static/common/flags/new/48/gb.png' alt='logo' style={{ height: '25px', width: '25px', margin: '20px 0 0 15px', borderRadius: '1rem', objectFit: 'cover', cursor: 'pointer' }} />
                     <h5 style={{ margin: '22px 3px auto 10px' }}>Already a partner?</h5>
-                    <button style={{ margin: '15px 0 25px 15px', border: '1px solid white', borderRadius: '5px', padding: '2px 8px', color: 'white', textDecoration: 'none', fontWeight: '500', fontSize: '.9rem', backgroundColor: 'rgb(0, 60, 145)' }}>Sign in</button>
-                    <button style={{ backgroundColor: 'rgb(13, 110, 253)', color: 'white', borderColor: 'rgb(13, 110, 253)', margin: '15px 15px 25px 15px', borderRadius: '5px', width: '60px' }}>Help</button>
+                    <button style={{ margin: '15px 0 25px 15px', border: '1px solid white', borderRadius: '5px', padding: '2px 8px', color: 'white', textDecoration: 'none', fontWeight: '500', fontSize: '.9rem', backgroundColor: 'rgb(0, 60, 145)', cursor: 'pointer' }}>Sign in</button>
+                    <button style={{ backgroundColor: 'rgb(13, 110, 253)', color: 'white', borderColor: 'rgb(13, 110, 253)', margin: '15px 15px 25px 15px', borderRadius: '5px', width: '60px', cursor: 'pointer' }}>Help</button>
                 </div>
 
                 <div style={{ backgroundColor: 'rgb(18, 122, 27)', width: '27%', margin: '-30px auto auto 110px', textAlign: 'center', borderRadius: '5px' }}>
-                    <h5 style={{ padding: '10px' }}>Join 29,279,209 other listings already on Booking.com</h5>
+                    <h5 style={{ padding: '10px', cursor: 'pointer' }}>Join 29,279,209 other listings already on Booking.com</h5>
                 </div>
 
                 <div style={{ display: 'flex' }}>
@@ -47,7 +47,7 @@ function ListProperty() {
 
                         <hr />
 
-                        <button style={{ margin: '10px 15px 18px 20px', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.5vh', width: '27vw' }} >Get Started Now</button>
+                        <button style={{ margin: '10px 15px 18px 20px', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.5vh', width: '27vw', cursor: 'pointer' }} >Get Started Now</button>
 
                         <hr />
                         <h4 style={{ margin: '10px 27px 4px 27px' }}>Already started a registration?</h4>
@@ -67,7 +67,7 @@ function ListProperty() {
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Damage payments</h3>
-                                <p style={{ margin: '3px 0 0 50px' }}>Our <a style={{ color: 'rgb(13, 110, 253)' }}>damage programme</a> covers your property in case of damages.</p>
+                                <p style={{ margin: '3px 0 0 50px' }}>Our <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>damage programme</a> covers your property in case of damages.</p>
                             </div>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
@@ -77,20 +77,20 @@ function ListProperty() {
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Choose how you prefer to recieve bookings</h3>
-                                <p style={{ margin: '3px 0 0 50px' }}>Either by letting guests book instantly, or by <a style={{ color: 'rgb(13, 110, 253)' }}>reviewing booking requests</a> before accepting them.</p>
+                                <p style={{ margin: '3px 0 0 50px' }}>Either by letting guests book instantly, or by <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>reviewing booking requests</a> before accepting them.</p>
                             </div>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Protection from liability claims</h3>
-                                <p style={{ margin: '3px 0 0 50px' }}>Receive <a style={{ color: 'rgb(13, 110, 253)' }}>protection against liability claims</a> from guests and<br /> neighbours of up to €/£/$1,000,000 for each reservation.</p>
+                                <p style={{ margin: '3px 0 0 50px' }}>Receive <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>protection against liability claims</a> from guests and<br /> neighbours of up to €/£/$1,000,000 for each reservation.</p>
                             </div>
-                            <button style={{ padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500' }}>List with peace of mind today</button>
+                            <button style={{ padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500', cursor: 'pointer' }}>List with peace of mind today</button>
                         </div>
                         <div style={{ margin: '0 -30px 0 40px' }}>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Get paid and secure your finances</h3>
-                                <p style={{ margin: '3px 0 0 50px' }}>Get guaranteed payouts and fraud protection through <a style={{ color: 'rgb(13, 110, 253)' }}>Payments by Booking.com</a>.</p>
+                                <p style={{ margin: '3px 0 0 50px' }}>Get guaranteed payouts and fraud protection through <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>Payments by Booking.com</a>.</p>
                             </div>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
@@ -114,7 +114,7 @@ function ListProperty() {
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Review.png" alt="" />
                             <h3>Import your reviews</h3>
                             <p style={{ margin: '-12px 0 20px 0', lineHeight: '23px' }}>We import your review score from other platforms and display it on your Booking.com property page, so you don’t start at zero reviews.</p>
-                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500' }}>Import your listing</button>
+                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500', cursor: 'pointer' }}>Import your listing</button>
                         </div>
                         <div style={{ width: '25vw', margin: '0 30px 0 0' }}>
                             <img src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-partner-thumbnails/Puzzle.png" alt="" />
@@ -142,7 +142,7 @@ function ListProperty() {
                                 <p style={{ fontSize: '45px', fontWeight: '700' }}>33%</p>
                                 <p style={{ margin: '-40px 0 30px 0' }}>of holiday rental customers are at Genius Level 2 or 3. These travellers tend to spend more and book directly on our platform.</p>
                             </div>
-                            <button style={{ padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500' }}>Grow your customer base</button>
+                            <button style={{ padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500', cursor: 'pointer' }}>Grow your customer base</button>
                         </div>
                         <div style={{ margin: '-45px 120px 10px 70px' }}>
                             <div>
@@ -162,7 +162,7 @@ function ListProperty() {
                     </div>
                     <div style={{ display: 'flex', margin: '0 120px', paddingBottom: '50px' }}>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 20px 70px 0', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 20px 70px 0', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“I was able to list within 15 minutes, and no more than two hours later, I had my first booking!”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max1024x100/Ukyc4Gwipc8i5A_1fBPHdxgI7Yu5yIKj7ShaZze2j_QHDEvQlQrUm_ZXUHgsDGecDmjBfbptfqP5pihKsEhz26lCZI7nnEP0kH1pmN7i.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -174,7 +174,7 @@ function ListProperty() {
                                 <h5 style={{ margin: '-60px 0 5px 88px' }}>Parley Rose</h5>
                                 <p style={{ fontSize: '.75rem', margin: '-1px 0 25px 88px' }}>UK-based host</p>
                             </div>
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '30px 20px 25px 0', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '30px 20px 25px 0', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“Travellers come to Charming Lofts from all over the world. Booking.com really helps with that. Unlike some other platforms, it's multinational and caters to a much larger audience. For me, that was a real game-changer.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5MpkasdbWZXwRW2b-NKOV1BoXXjrUFjSx_oyNFEkzze_bg6haOnPb0kCxtdGSoKDXFMNyBw0pUgNt-L4ge4hSRhYuKg=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -187,10 +187,10 @@ function ListProperty() {
                                 <p style={{ fontSize: '.75rem', margin: '-1px 0 25px 88px' }}>Charming Lofts, Los Angeles</p>
                             </div>
 
-                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500' }}>Join hosts like you</button>
+                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15px', fontWeight: '500', cursor: 'pointer' }}>Join hosts like you</button>
                         </div>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 30px 6px', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 30px 6px', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“Booking.com is the most straightforward [OTA] to work with. Everything is clear. It’s easy. And it frees us up to focus on the aspects that we can really add value to, like the guest experience.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5CH5gAVsSjtWdunQi9-51tJLCwQPf2PGW_xGqh1WC9mkm4DI40UmWrOqC3iaI-WDrY8mGyL2ApuMLznWMrGdV4lNb18=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -203,7 +203,7 @@ function ListProperty() {
                                 <p style={{ fontSize: '.75rem', margin: '-1px 0 25px 88px' }}>Managing Director, Abodebed</p>
                             </div>
 
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '10px 10px 10px 6px', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '10px 10px 10px 6px', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“After joining Booking.com and setting up the listing, my occupancy went up significantly and bookings were coming in five to six months in advance.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5Lz1EpeaLFAoRVrkjWkJuqInmhVXyBn1VIJmr0kwpen5i0mwkkTrdi1mmdTA5YgA1GojSo7bbef9Axi9afPN815cWl0=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -217,7 +217,7 @@ function ListProperty() {
                             </div>
                         </div>
                         <div style={{ width: '30vw' }}>
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 50px 16px', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 50px 16px', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“Booking.com accounts for our largest share of guests and has helped get us where we are today.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/UktFsp563N_OGPALUNtthVGWa-r1FwOhH-BJbJAJmx7L1SLmPJZGoQ8uBrkYVkhwyFMUf7CEvE_3BJ1pS80Ny3rpE1jC2f6P2ek_r4I=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -229,7 +229,7 @@ function ListProperty() {
                                 <h5 style={{ margin: '-60px 0 5px 88px' }}>Michel and Asja</h5>
                                 <p style={{ fontSize: '.75rem', margin: '-1px 0 25px 88px' }}>Owners of La Maison de Souhey</p>
                             </div>
-                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 10px 16px', backgroundColor: '#fff' }}>
+                            <div style={{ border: '2px solid orange', borderRadius: '5px', margin: '0 10px 10px 16px', backgroundColor: '#fff', cursor: 'pointer' }}>
                                 <p style={{ fontSize: '.9rem', margin: '15px 10px 25px 15px' }}>“Getting started with Booking.com was super simple and took no time at all.”</p>
                                 <img src="https://xx.bstatic.com/xdata/e/xphoto/max600x120/Ukuc4Gwipc8i5GMsGtAVVjxhdtTmFe3tRNWntQU0Skp4BuJQ1Cm_cQ7Qjq9zZPKYsb0DDiJCLVSkGoKQwqTXNJyePN0tX4xeNJNzd6E=.jpg" alt="" style={{
                                     width: '60px', // Set the width to make the image square
@@ -251,15 +251,15 @@ function ListProperty() {
                     <div style={{ display: 'flex' }}>
                         <div style={{ margin: '-20px 30px 0 0', width: '50%' }}>
                             <hr />
-                            <p style={{ fontWeight: '700', fontSize: '1.25rem', width: '35vw' }}>What happens if my property is damaged by a guest?</p><FaChevronDown style={{ float: 'right', marginTop: '-55px' }} />
+                            <p style={{ fontWeight: '700', fontSize: '1.25rem', width: '35vw' }}>What happens if my property is damaged by a guest?</p><FaChevronDown style={{ float: 'right', marginTop: '-55px', cursor: 'pointer' }} />
 
                             <hr />
-                            <p style={{ margin: '30px 0 50px 0' }}>Still have questions? Find answers to all your questions on our <a style={{ color: 'rgb(13, 110, 253)' }}>FAQ</a></p>
-                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15.5px', fontWeight: '700' }}>Start welcoming guests</button>
+                            <p style={{ margin: '30px 0 50px 0' }}>Still have questions? Find answers to all your questions on our <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>FAQ</a></p>
+                            <button style={{ padding: '10px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 100, 255)', borderRadius: '5px', fontSize: '15.5px', fontWeight: '700', cursor: 'pointer' }}>Start welcoming guests</button>
                         </div>
                         <div style={{ margin: '-20px 30px 0 0', width: '50%' }}>
                             <hr />
-                            <p style={{ fontWeight: '700', fontSize: '1.25rem', width: '35vw' }}>When will my property go online?</p><FaChevronDown style={{ float: 'right', marginTop: '-40px' }} />
+                            <p style={{ fontWeight: '700', fontSize: '1.25rem', width: '35vw' }}>When will my property go online?</p><FaChevronDown style={{ float: 'right', marginTop: '-40px', cursor: 'pointer' }} />
 
                             <hr />
                         </div>
@@ -290,33 +290,33 @@ function ListProperty() {
 
                         <hr />
 
-                        <button style={{ margin: '10px 0 18px 20px', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.5vh', width: '27vw' }} >Get Started Now</button>
+                        <button style={{ margin: '10px 0 18px 20px', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.5vh', width: '27vw', cursor: 'pointer' }} >Get Started Now</button>
                     </div>
                 </div>
                 <div style={{display: 'flex', margin: '-5px 268px 0 120px', justifyContent: 'space-between'}}>
                     <div>
                         <h3>Discover</h3>
-                        <p style={{fontSize: '.9rem'}}><u>Trust and Safety</u></p>
+                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Trust and Safety</u></p>
                     </div>
                     <div>
                         <h3>Useful Links</h3>
-                        <p style={{fontSize: '.9rem'}}><u>Extranet</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0'}}><u>Pulse for Android</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0'}}><u>Pulse for iOS</u></p>
+                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Extranet</u></p>
+                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Pulse for Android</u></p>
+                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Pulse for iOS</u></p>
                     </div>
                     <div>
                         <h3>Helps and Communities</h3>
-                        <p style={{fontSize: '.9rem'}}><u>Partner Help</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0'}}><u>Partner community</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0'}}><u>How-to videos</u></p>
+                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Partner Help</u></p>
+                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Partner community</u></p>
+                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>How-to videos</u></p>
                     </div>
                 </div>
                 <hr  style={{margin: '20px 120px 0 120px'}}/>
                 <div style={{display: 'flex', margin: '20px 0 0 120px', fontSize: '.9rem'}}>
-                    <p style={{margin: '19px 0 40px 0'}}><u>About Us</u></p>
+                    <p style={{margin: '19px 0 40px 0', cursor: 'pointer'}}><u>About Us</u></p>
                     <TbMinusVertical style={{margin: '20px 0 40px 7px', fontSize: '1.3rem'}}/>
-                    <p style={{margin: '19px 300px 40px 10px'}}><u>Privacy and Cookie statement</u></p>
-                    <p style={{margin: '19px 0 40px 320px'}}><u>© Copyright Booking.com 2025</u></p>
+                    <p style={{margin: '19px 300px 40px 10px', cursor: 'pointer'}}><u>Privacy and Cookie statement</u></p>
+                    <p style={{margin: '19px 0 40px 320px', cursor: 'pointer'}}>© Copyright <u>Booking.com</u> 2025</p>
                 </div>
             </div>
         </div>
