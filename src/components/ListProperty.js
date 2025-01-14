@@ -268,10 +268,10 @@ function ListProperty() {
             </div>
 
             <div className="footer" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white' }}>
-                <div style={{display: 'flex', margin: '0 0 0 120px', paddingTop: '82px'}}>
+                <div style={{ display: 'flex', margin: '0 0 0 120px', paddingTop: '82px' }}>
                     <div>
-                        <p style={{fontSize: '48px', fontWeight: '600'}}>Sign up and start </p>
-                        <p style={{fontSize: '48px', fontWeight: '600', margin: '-50px 30px 0 0'}}>welcoming guests today!</p>
+                        <p style={{ fontSize: '48px', fontWeight: '600' }}>Sign up and start </p>
+                        <p style={{ fontSize: '48px', fontWeight: '600', margin: '-50px 30px 0 0' }}>welcoming guests today!</p>
                     </div>
                     <div style={{ backgroundColor: 'white', color: 'black', border: '6px solid orange', borderRadius: '7px', margin: '-30px 0 40px 113px', height: '45vh', width: '30vw' }}>
                         <h2 style={{ margin: '20px 27px 10px 27px' }}>Register for free</h2>
@@ -293,30 +293,30 @@ function ListProperty() {
                         <button style={{ margin: '10px 0 18px 20px', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.5vh', width: '27vw', cursor: 'pointer' }} >Get Started Now</button>
                     </div>
                 </div>
-                <div style={{display: 'flex', margin: '-5px 268px 0 120px', justifyContent: 'space-between'}}>
+                <div style={{ display: 'flex', margin: '-5px 268px 0 120px', justifyContent: 'space-between' }}>
                     <div>
                         <h3>Discover</h3>
-                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Trust and Safety</u></p>
+                        <p style={{ fontSize: '.9rem', cursor: 'pointer' }}><u>Trust and Safety</u></p>
                     </div>
                     <div>
                         <h3>Useful Links</h3>
-                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Extranet</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Pulse for Android</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Pulse for iOS</u></p>
+                        <p style={{ fontSize: '.9rem', cursor: 'pointer' }}><u>Extranet</u></p>
+                        <p style={{ fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer' }}><u>Pulse for Android</u></p>
+                        <p style={{ fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer' }}><u>Pulse for iOS</u></p>
                     </div>
                     <div>
                         <h3>Helps and Communities</h3>
-                        <p style={{fontSize: '.9rem', cursor: 'pointer'}}><u>Partner Help</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>Partner community</u></p>
-                        <p style={{fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer'}}><u>How-to videos</u></p>
+                        <p style={{ fontSize: '.9rem', cursor: 'pointer' }}><u>Partner Help</u></p>
+                        <p style={{ fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer' }}><u>Partner community</u></p>
+                        <p style={{ fontSize: '.9rem', margin: '-10px 0 15px 0', cursor: 'pointer' }}><u>How-to videos</u></p>
                     </div>
                 </div>
-                <hr  style={{margin: '20px 120px 0 120px'}}/>
-                <div style={{display: 'flex', margin: '20px 0 0 120px', fontSize: '.9rem'}}>
-                    <p style={{margin: '19px 0 40px 0', cursor: 'pointer'}}><u>About Us</u></p>
-                    <TbMinusVertical style={{margin: '20px 0 40px 7px', fontSize: '1.3rem'}}/>
-                    <p style={{margin: '19px 300px 40px 10px', cursor: 'pointer'}}><u>Privacy and Cookie statement</u></p>
-                    <p style={{margin: '19px 0 40px 320px', cursor: 'pointer'}}>© Copyright <u>Booking.com</u> 2025</p>
+                <hr style={{ margin: '20px 120px 0 120px' }} />
+                <div style={{ display: 'flex', margin: '20px 0 0 120px', fontSize: '.9rem' }}>
+                    <p style={{ margin: '19px 0 40px 0', cursor: 'pointer' }}><u>About Us</u></p>
+                    <TbMinusVertical style={{ margin: '20px 0 40px 7px', fontSize: '1.3rem' }} />
+                    <p style={{ margin: '19px 300px 40px 10px', cursor: 'pointer' }}><u>Privacy and Cookie statement</u></p>
+                    <p style={{ margin: '19px 0 40px 320px', cursor: 'pointer' }}>© Copyright <u>Booking.com</u> 2025</p>
                 </div>
             </div>
         </div>
