@@ -25,9 +25,9 @@ function RegisterPage() {
                 <input type="text" placeholder='Enter your email address' style={{width: '93%', height: '30px', marginTop: '6px', paddingLeft: '6px'}}/><br/>
                 <button style={{margin: '18px 0 18px 0', backgroundColor: 'rgb(13, 110, 253)', color: 'white', border: '1px solid rgb(13, 110, 253)', borderRadius: '5px', height: '7.95vh', width: '25vw', cursor: 'pointer', fontSize: '.95rem', fontWeight: '500'}}>Continue with email</button>
                 <div style={{display: 'flex'}}>
-                    <hr style={{height: '0px', width: '75px', margin: 'auto 5px'}}/>
+                    <hr style={{height: '0px', width: '70px', margin: 'auto 5px'}}/>
                     <p style={{margin: '-5px 0 0 0', fontSize: '.9rem'}}>or use one of these options</p>
-                    <hr style={{height: '0px', width: '75px', margin: 'auto 5px'}} />
+                    <hr style={{height: '0px', width: '70px', margin: 'auto 5px'}} />
                 </div>
                 <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '30px -1px'}}>
                     <div style={{border: '1px solid lightgrey', borderRadius: '5px', padding: '5px'}}>
@@ -42,8 +42,13 @@ function RegisterPage() {
                 </div>
             </div>
 
-            <div className="footer" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white' }}>
-                
+            <div className="footer" style={{ margin: '40px 505px 0 505px', fontSize: '.72rem' }}>
+                <hr />
+                <p>By signing in or creating an account, you agree with our Terms & conditions and Privacy statement
+                </p>
+                    <p>All rights reserved.</p>
+                    <p>Copyright (2006 - 2025) - Booking.com™
+                    </p>
             </div>
     </div>
   )
