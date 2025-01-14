@@ -26,7 +26,7 @@ function Navbar() {
 
         <h3 style={{ marginTop: '15px', cursor: 'pointer', border: '1px solid white', borderRadius: '5px', marginBottom: '24px', padding: '2px 8px' }}><a href='/list' style={{ color: 'white', textDecoration: 'none', fontWeight: '500', fontSize: '.91rem' }}>List your Property</a></h3>
 
-        <button style={{ height: '32px', margin: '15px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '75px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }}onClick={registerLink}>Register</button>
+        <button style={{ height: '32px', margin: '15px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '75px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }} onClick={registerLink}>Register</button>
 
         <button style={{ height: '32px', margin: '15px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '68px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }} onClick={registerLink}>Sign In</button>
 
