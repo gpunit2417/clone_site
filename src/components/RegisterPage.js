@@ -42,12 +42,13 @@ function RegisterPage() {
                 </div>
             </div>
 
-            <div className="footer" style={{ margin: '40px 505px 0 505px', fontSize: '.72rem' }}>
+            <div className="footer" style={{ margin: '40px 505px 0 505px', fontSize: '.75rem' }}>
                 <hr />
-                <p>By signing in or creating an account, you agree with our Terms & conditions and Privacy statement
+                <p style={{margin: '18px 0 10px 5px'}}>By signing in or creating an account, you agree with our <a href='/xyz' style={{color: 'rgb(12, 110, 253)', textDecoration: 'none'}}>Terms </a> 
                 </p>
-                    <p>All rights reserved.</p>
-                    <p>Copyright (2006 - 2025) - Booking.com™
+                <p style={{textAlign: 'center', margin: '-8px 0 10px -15px'}}><a href='/xyz' style={{color: 'rgb(12, 110, 253)', textDecoration: 'none'}}>& conditions</a> and <a href='/xyz' style={{color: 'rgb(12, 110, 253)', textDecoration: 'none'}}>Privacy statement</a></p>
+                    <p style={{textAlign: 'center', margin: '-1px 0 10px -15px'}}>All rights reserved.</p>
+                    <p style={{textAlign: 'center', margin: '-8px 0 10px -15px'}}>Copyright (2006 - 2025) - Booking.com™
                     </p>
             </div>
     </div>
