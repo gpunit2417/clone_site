@@ -28,7 +28,7 @@ function Navbar() {
 
         <button style={{ height: '32px', margin: '15px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '75px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }}onClick={registerLink}>Register</button>
 
-        <button style={{ height: '32px', margin: '15px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '68px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }}>Sign In</button>
+        <button style={{ height: '32px', margin: '15px -10px', borderRadius: '.2rem', border: 'rgb(0,62,255)', color: 'rgb(0, 110, 240)', width: '68px', backgroundColor: 'white', fontWeight: '700', cursor: 'pointer' }} onClick={registerLink}>Sign In</button>
 
       </div>
     </div>
