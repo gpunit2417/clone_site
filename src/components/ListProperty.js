@@ -10,10 +10,15 @@ function ListProperty() {
             <div className="header" style={{ backgroundColor: 'rgb(0,60,145)', color: 'white' }}>
                 <div style={{ display: 'flex', margin: '0 120px' }}>
                     <h2 style={{ marginRight: '600px', cursor: 'pointer' }}>
-                        <a href='/' style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Booking.com</a></h2>
+                        <a href='/' style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>Booking.com</a>
+                    </h2>
+
                     <img src='https://q-xx.bstatic.com/backend_static/common/flags/new/48/gb.png' alt='logo' style={{ height: '25px', width: '25px', margin: '20px 0 0 15px', borderRadius: '1rem', objectFit: 'cover', cursor: 'pointer' }} />
+
                     <h5 style={{ margin: '22px 3px auto 10px' }}>Already a partner?</h5>
+
                     <button style={{ margin: '15px 0 25px 15px', border: '1px solid white', borderRadius: '5px', padding: '2px 8px', color: 'white', textDecoration: 'none', fontWeight: '500', fontSize: '.9rem', backgroundColor: 'rgb(0, 60, 145)', cursor: 'pointer' }}>Sign in</button>
+
                     <button style={{ backgroundColor: 'rgb(13, 110, 253)', color: 'white', borderColor: 'rgb(13, 110, 253)', margin: '15px 15px 25px 15px', borderRadius: '5px', width: '60px', cursor: 'pointer' }}>Help</button>
                 </div>
 
@@ -24,8 +29,11 @@ function ListProperty() {
                 <div style={{ display: 'flex' }}>
                     <div style={{ margin: '30px 50px auto 120px' }}>
                         <p style={{ fontSize: '50px', fontWeight: '700' }}>List your</p>
+
                         <p style={{ color: 'rgb(13, 110, 253)', fontSize: '50px', fontWeight: '700', margin: '-50px 0' }}>apartment</p>
+
                         <p style={{ fontSize: '50px', fontWeight: '700' }}>on Booking.com</p>
+
                         <h2 style={{ fontWeight: '500', fontSize: '23px', margin: '-40px auto' }}>Whether hosting is your sideline passion or full-time job, list your home today and quickly start earning more income.</h2>
                     </div>
 
@@ -51,6 +59,7 @@ function ListProperty() {
 
                         <hr />
                         <h4 style={{ margin: '10px 27px 4px 27px' }}>Already started a registration?</h4>
+
                         <p style={{ margin: '-2px 27px 10px 27px', fontSize: '.9rem' }}><a href='/xyz' style={{ textDecoration: 'none', color: 'rgb(13, 110, 253)', fontWeight: '500' }}>Continue your registration</a></p>
                         {/* </div> */}
                     </div>
@@ -62,49 +71,73 @@ function ListProperty() {
                     <div>
                         <p style={{ fontSize: '50px', fontWeight: '700' }}>List with peace of mind</p>
                     </div>
+
                     <div style={{ display: 'flex', marginTop: '-20px' }}>
                         <div>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Damage payments</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Our <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>damage programme</a> covers your property in case of damages.</p>
                             </div>
+
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Your own house rules</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Communicate your house rules to potential guests who must agree to them in order to book.</p>
                             </div>
+
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Choose how you prefer to recieve bookings</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Either by letting guests book instantly, or by <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>reviewing booking requests</a> before accepting them.</p>
                             </div>
+
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Protection from liability claims</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Receive <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>protection against liability claims</a> from guests and<br /> neighbours of up to €/£/$1,000,000 for each reservation.</p>
                             </div>
+
                             <button style={{ padding: '15px', backgroundColor: 'rgb(13, 120, 255)', color: 'white', border: '2px solid rgb(13, 110, 253)', borderRadius: '5px', fontSize: '15px', fontWeight: '500', cursor: 'pointer' }}>List with peace of mind today</button>
                         </div>
+
                         <div style={{ margin: '0 -30px 0 40px' }}>
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Get paid and secure your finances</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Get guaranteed payouts and fraud protection through <a href='/xyz' style={{ color: 'rgb(13, 110, 253)', textDecoration: 'none' }}>Payments by Booking.com</a>.</p>
                             </div>
+
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Verified guests</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>We verify guests email addresses and credit cards for partners on Payments by Booking.com.</p>
                             </div>
+
                             <div style={{ marginBottom: '27px' }}>
                                 <IoCheckmarkCircleOutline style={{ fontSize: '35px' }} />
+
                                 <h3 style={{ margin: '-35px 0 0 50px' }}>Robust Support</h3>
+
                                 <p style={{ margin: '3px 0 0 50px' }}>Access support in 45 languages and manage your property through Pulse, our app for partners like you.</p>
                             </div>
+
                         </div>
                     </div>
                 </div>
+                
                 <div style={{ backgroundColor: 'rgb(240, 240, 240)' }}>
                     <div style={{ margin: '40px 0 0 120px', paddingTop: '30px' }}>
                         <p style={{ fontSize: '50px', fontWeight: '700', margin: '' }}>Stand out from the start</p>
