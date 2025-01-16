@@ -91,9 +91,12 @@ function ContactPage() {
       <div style={{ border: '1px solid lightgrey', margin: '15px 0 0 0' }}>
         <div style={{ display: 'flex' }}>
           <a href="/xyz" style={{ textDecoration: 'none', color: 'rgb(13, 110, 253)' }}><h4 style={{ margin: '20px 10px 5px 120px', fontWeight: '500' }}>Terms & Conditions</h4></a>
+
           <a href="/xyz" style={{ textDecoration: 'none', color: 'rgb(13, 110, 253)' }}><h4 style={{ margin: '20px 10px 5px 5px', fontWeight: '500' }}>Privacy & Cookie statement</h4></a>
+
           <a href="/xyz" style={{ textDecoration: 'none', color: 'rgb(13, 110, 253)' }}><h4 style={{ margin: '20px 10px 5px 5px', fontWeight: '500' }}>About Booking.com</h4></a>
         </div>
+        
         <div>
           <p style={{ fontSize: '.9rem', margin: '10px 120px 50px 120px' }}>Copyright © 1996–2025 Booking.com™. All rights reserved.</p>
         </div>
