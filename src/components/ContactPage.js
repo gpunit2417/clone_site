@@ -68,36 +68,51 @@ function ContactPage() {
             <IoBedOutline style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Stays</p>
           </div>
+
           <div style={{ margin: '0 20px', justifyItems: 'center', cursor: 'pointer' }}>
             <FaCarAlt style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Car rentals</p>
           </div>
+
           <div style={{ margin: '0 20px', justifyItems: 'center', cursor: 'pointer' }}>
             <IoBedOutline style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Flights</p>
           </div>
+
           <div style={{ margin: '0 20px', justifyItems: 'center', cursor: 'pointer' }}>
             <IoBedOutline style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Airport taxis</p>
           </div>
+
           <div style={{ margin: '0 20px', justifyItems: 'center', cursor: 'pointer' }}>
             <IoBedOutline style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Insurance</p>
           </div>
+
           <div style={{ margin: '0 20px', justifyItems: 'center', cursor: 'pointer' }}>
             <PiDotsThreeOutlineThin style={{ fontSize: '1.5rem' }} />
             <p style={{ margin: '2px 0 5px 0', fontSize: '.9rem' }}>Other</p>
           </div>
         </div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Cancellations<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Payment<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Booking Details<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Communications<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Room types<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Pricing<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Credit Cards<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Property Policies<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+        
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Extra facilities<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
+        
         <div className="card" style={{ border: '1px solid lightgrey', height: '25px', padding: '20px', fontSize: '.9rem', cursor: 'pointer' }}>Security and awareness<FaAngleRight style={{ float: 'right', marginTop: '5px' }} /></div>
       </div>
 
